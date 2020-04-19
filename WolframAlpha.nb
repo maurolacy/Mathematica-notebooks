@@ -1,0 +1,1749 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     87220,       1740]
+NotebookOptionsPosition[     86452,       1708]
+NotebookOutlinePosition[     86788,       1723]
+CellTagsIndexPosition[     86745,       1720]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"WolframAlpha", "[", "\"\<Integrate[Sqrt[1-x^2], {x, 0, 1}]\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.594892590026037*^9, 3.594892643791271*^9}, {
+  3.594892703351482*^9, 3.594892846744897*^9}, {3.59489336586975*^9, 
+  3.594893456894842*^9}},
+ EmphasizeSyntaxErrors->True],
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = "Integrate[Sqrt[1-x^2], {x, 0, 1}]", 
+   Typeset`opts$$ = {
+   AppearanceElements -> {
+     "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+      "Sources"}, 
+    PodStates -> {
+     "IndefiniteIntegral__Approximate form", "IndefiniteIntegral__Exact form",
+       "IndefiniteIntegral__Step-by-step solution"}}, Typeset`elements$$ = {
+   "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+    "Sources"}, Typeset`pod1$$ = XMLElement[
+   "pod", {"title" -> "Definite integral", "scanner" -> "Integral", "id" -> 
+     "Input", "position" -> "100", "error" -> "false", "numsubpods" -> "1", 
+     "primary" -> "true"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["minput", {}, {"N[Integrate[Sqrt[1 - x^2], {x, 0, 1}]]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            RowBox[{
+              TagBox[
+               RowBox[{
+                 SubsuperscriptBox["\[Integral]", "0", "1"], 
+                 RowBox[{
+                   SqrtBox[
+                    RowBox[{"1", "-", 
+                    SuperscriptBox["x", "2"]}]], 
+                   RowBox[{"\[DifferentialD]", "x"}]}]}], HoldForm], 
+              "\[LongEqual]", 
+              TagBox[
+               FractionBox["\[Pi]", "4"], Identity], "\[TildeTilde]", 
+              TagBox["0.7853981633974483`", Identity]}], TraditionalForm]], 
+          "Output"]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,moutput,computabledata,formatteddata,formuladata"}]}\
+], 
+     XMLElement["states", {"count" -> "1"}, {
+       XMLElement[
+       "state", {
+        "name" -> "More digits", "input" -> "Input__More digits"}, {}]}]}], 
+   Typeset`pod2$$ = XMLElement[
+   "pod", {"title" -> "Visual representation of the integral", "scanner" -> 
+     "Integral", "id" -> "VisualRepresentationOfTheIntegral", "position" -> 
+     "200", "error" -> "false", "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["minput", {}, {"Plot[Sqrt[1 - x^2], {x, 0, 1}]"}], 
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            GraphicsBox[{
+              GraphicsComplexBox[CompressedData["
+1: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
+0i7SLBLDf/8L//0/8P3/+O/76T/8P9DIagY=
+               "], {{{}, {
+                  EdgeForm[], 
+                  Directive[
+                   Opacity[0.1], 
+                   RGBColor[0, 0, 1]], 
+                  GraphicsGroupBox[{
+                    
+                    PolygonBox[{{1, 197, 198, 50, 195, 158, 190, 126, 193, 
+                    153, 185, 99, 156, 188, 121, 148, 180, 77, 124, 151, 183, 
+                    94, 116, 143, 175, 60, 97, 119, 146, 178, 70, 87, 109, 
+                    136, 168, 49, 76, 93, 115, 142, 174, 59, 69, 86, 108, 135,
+                     167, 48, 75, 92, 114, 141, 173, 58, 68, 85, 107, 134, 
+                    166, 47, 57, 67, 84, 106, 133, 165, 46, 45, 44, 43, 42, 
+                    41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 
+                    27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 
+                    13, 12, 11, 10, 9, 8, 7, 56, 66, 83, 105, 132, 164, 6, 55,
+                     65, 82, 104, 131, 163, 5, 74, 91, 113, 140, 172, 54, 64, 
+                    81, 103, 130, 162, 4, 73, 90, 112, 139, 171, 53, 63, 80, 
+                    102, 129, 161, 3, 72, 89, 111, 138, 170, 52, 96, 118, 145,
+                     177, 62, 79, 101, 128, 160, 2, 98, 120, 147, 179, 71, 
+                    123, 150, 182, 88, 110, 137, 169, 51, 125, 152, 184, 95, 
+                    155, 187, 117, 144, 176, 61, 157, 189, 122, 192, 149, 181,
+                     78, 194, 154, 186, 100, 191, 127, 159, 
+                    196}}]}]}, {}, {}}}], {{{}, {}, {
+                 Hue[0.67, 0.6, 0.6], 
+                 Directive[
+                  RGBColor[0.24720000000000014`, 0.24, 0.6], 
+                  AbsoluteThickness[1]], 
+                 LineBox[CompressedData["
+1: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
+
+                  "]]}}}}, {GridLines -> Dynamic[
+                Map[{{#, 
+                   GrayLevel[0.7]}}& , 
+                 MousePosition[{"Graphics", Graphics}, None]]], 
+              Method -> {"GridLinesInFront" -> True}, Epilog -> {{
+                 LineBox[{{0, 0}, {0, 0.9999999921880643}}], 
+                 LineBox[{{1, 0}, {1, 0}}]}, 
+                DynamicBox[
+                 Typeset`ToBoxes[
+                  
+                  DynamicModule[{
+                   CalculateUtilities`GraphicsUtilities`Private`pt = (
+                    NearestFunction[1, {276, 1}, 3, CompressedData["
+1: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
+unn8j/8DWN93Qg==
+                    "], CompressedData["
+1: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
+/h9A33dA
+                    "], CompressedData["
+1:eJwV13c4lf8bB3CjSaWMUkakpCijiMKtfqKSOhkZlZ3RImRnZXUi40uUFLL3
+XsnnkFmJzESyHTnnPEbZ8fv467le1znXcz3X9bmf+/1+hM1stW6zMDExcTMz
+Ma1f+xvvSL18WY6CmPjHiC4C9ri5hrj5lCMFkwhtpW4CSOJBv2/YlKOiL6ec
+ydjVIclJggrlqF6cd1DkOwFJWgO8Sd/LULe4DWj3EHCnT5c5d08Z2pW9Wyyp
+l4A5QqWtNqoExecFlO4YIEAy4apkyuMSJNlWx9DCttYyCg68XYJ62Bz6XmD3
+FLmrXZItQZm8+3sFBgmodC2paOkoRolRU7fFhgjwZZV494OrGK1831ooOULA
+9j17HKfCC1FwoNSpzVQCHE8l2H1yLkQbwx+cUMf+oSd+P+lWIZqKf9QTgJ0W
+A5b6RwrR7MDYgY0TBKjus9anUAqQ0duQzH/YHgLlimFEPrLpj4/qnySAJnJj
+o5RmHuKqnukxJgjQVh1lZjuRhzRVWLmisCssbFeHefPQ5YE9c03YOzU2E5JN
+uchZQqdCZoqAC1f029fmc9ANJvUzTNMElOksxb7VzUaKYx5Cz2YIiDZVPvZr
+Zwb6yt7ha/KXgJxwJkO2gXRUbUCSDsKur64JkM1NR/m6a5G52HPC6gPPNPHv
+qYvu/7CvD139T56chljsHzdGzRHAbW66GM6aitpR2s2yeQIk/hMR/dCWgkLZ
+mo16sVU/jmpRE1LQdp2Tu1exHUXuZCmrpCDx3JakcwsEtA/bG096JCOXZO2z
+jdgRFn51qnPvkNBnQ5e6RQIyItVmbOveoVMJ/C3D2DW1W/bHRr5D9iWSvcxL
+BEwfDHGZlnmHjMcucylhk0ajxN/YJiLtQVfWPGwOy9TweWo8ksjTGAlcJkD0
+hU3VgbJ4JJLuFZaArVwvPqkZGI9OcO2aqcB+IJqnmnQoHmmsXemkYcc2PyQS
+at8gi0OX+DVXCOBtiXyvUxqLrpp+zVrDjmBZfhKlF4tyjIzVuP/h+ZAzvdw1
+/wqFNCjFiGGzxB37qSf/Ct1bGbEgYdPu1K8alseg6/cnE15jW76RaIg1iEHR
+V+b+5WAPfosI7VuMRn6ZWpzV2F3yxkJGp6PRm0pmixFsyqaFs6bvo1Anh1rm
+4VUCTp82Yku8EYVycyeaTmEX369tG1qORElmQ/Hq2BkdYeYWipGoKb3D2RI7
+MvGIv9WHCFT7u6EpHntHV6hm2q0I5Gy0PzMH++nWOZ6Jf+GId0OLaiW2p11N
+yh3lcIRI8gld2F89SsJ6PUNRtLPi6uY1Aj4O+wrfQs9RK4dxIhd22aWrBf1r
+IUjVu29VEDuRl9o+6B2MYO/EwEnsaK8iC/PqZ6i2w8USsIPHvP+OMD9D3s8t
+ki5iOxXt3UP1fYrGt1+7eAv7Lt9Yqs3HIOSnp5VniW3iWyA/yRqEzqTmtdhi
+XyJpGDL8AtDRy/6nfLAFaB5xfwKeoCMTkZnx2JzaF487Nfiivmy/zlTszRU8
+aH6zL5I43l6agz0dmDOwFOSNCnlDkt9jf/n5d2ghwgtV9CzkVWOXZD7fsMLl
+iTZuqHVswH6qTlFn2e2ODI+5HmrDtucxsNkY7YqOO5pzdmPfHJ4mb+F1Qd2F
+2aW92Gr55Cz2l04okF2fZwBbykvk6459j1BYjJn4CPY+zUpiV6wDMnVqXhzH
+3sCnu4uH3x6Rq2K8J7EZVLoMb5wdKguqRQzsvPvb0+UUH6Dy36TSaezLRFYv
+6d8dlPLu7Js/2ON2l3fcrbJCq5cmpeaxfWcmVfy9LBDPX03bRWxBx2cOb1VM
+UXKhjcHy+vNP6l52YL2JWqKUiRXsdEZkfqq/Ltqb9kVqFRsNpx4r47iCbP9w
+Ca5hS/w+tCDEfRYd8uUuXbdlTSjbYTMhNKv7dXndM7sqR/fVS8PCw7O0dQez
+mKQl9Z+H8s77QevmWJ1iCNy/Bgc8tVvX7/99Kf/pxG898Ls98/Hf+rzM2x8s
+tjaC6CeXzNefR27ppbGKgxk4N9/IWcJ+5bIkIVpwGzJkRZMXsFfnDJfYp61h
+b1a6+hy2+aP3DdOS94BLcCxqFrtxli+q+4EtkJx6Q6ewdyso5/dffwi0109l
+6dgXXBjR1+bswdp5KmAC2730jWdtlCNkUzn8RrEHZNc0MjqcQXqHi0/f+jw9
+ypURcHQFcKf4rJ+3apHx3jAudyiaohxbn4d0GcrYIy1PaLk4EVSP3ffQrpk6
+7QWPvu2Up2AH6u/8kd3oDY/TiYhy7PJoCkXI2hd4nNo0MrG1SnlP/jj1BL4t
+dqa/w6Z12aX+t9kPLtJCC2PXz2+38PNNqf4gsV/0Exm7VNaVmeIUAFM9zN3r
+80/S/eboqhYIhxciQl3Wzz/S5wZtNAj+yXWw3sbmK+r5mlz8FA5+eIIMsYva
+pc8Z+5Ph88NxUdL6/HAOibUdDAZWnk8LCuvzFX5urtQ8FIScZtK2rs+LfnNR
+2d4wCCpWqFnB+wCsXR9E+YQBWVEmkMD+Hvht8Mq1cLD0kOXuwGZr8GmsnoqA
+wRyX0y+xbc8PRaVKvoDBzKBSLuw0JxlqVNgLeKOOalmwB1J9T/tNv4DVRe+g
+abzvtNhEfpkURkNt3bsTX7HlWszF9p16CRbeBrx+2Cv6oxXByq+BW4GLbwjv
+Y1my7Hb3t6/h5TkU9gX7wXt/YxumODDayqgswR4QEN2gVhMHQ/bf5MnYH4cs
+NdfOvwWt2jdVx7DPy/0hykQTgJ1Ux2yF9//QFf69UnoJsHhV69dlbE8r1XOp
+gQmQUqrnIINdEhMZGUVNANXhxqoVnDdiyycV7DMSQQ2khkOwt1Ee+YofT4Jw
+QRvTRJxf7Rfnud/IpoK+2edjkTgPOf3E1kTupIJ3+f8G7mNrVRlMpL9JhSzF
+s4rq2G0ylR+KN6fB95/1Uws4b9v4fCybe9JgPLRHQ3/ddLaylccZkEVZbtyE
+87k1XPDGjfps+CTyqvMAzvudX66eH1zKhobUAyXTuA+QNvlIWknmgG4tqwoF
+u9VtmNUhJgeU3Jqu3ly3eVoW+U4uBB6QMw7DfYK6b+/azcA80PQ5pEhl4Pmg
+JZKCxQtg40Gtoeu4r5zkYc3QOV8A4HaXlR/bV8mcVcC4AGSdmloHfhPA/1yk
+JDuiALbxXLazwdaSTOJrWSwAc235GifcfyofJo/taiwEAb3NeT7jBITNpXpE
+WxSDIntTsv4wAT8Ft3QZexYDVfuDBhf2UXVrSbGYYjhJLYlrxv2sLlpsqOxz
+MRRezz9/FntJPl39h0wJnLwbkHwQ9zkL9wxOAeZSYMquTuztJ0CeKTstMa4M
+1vIfPmH7gedBSs46t7gMRledNlFwnwwyRYcrm8tg2+ajKo+we2q+pXT+KwMN
+2fDuftw/3fznkrYYlcMvdvEXObiffmBTSXggWAGxsx9IKp0EnONpf3n67Xtg
+/eWZJdFKgObRRXJbfBXwhgR7i9XhfTS5KXOsogrox1xqP9bi/2dzf17qqALU
+5JNvhC0nJcUushXBwuJgwH8f8fsuZ/XM4SECwWY3wcVqAubjf59nE6bAyvYj
+q4VV+H5Z+mqZ0xRgjy6wopYSYFN7Up0eUQMuNq58Gum4j6xt37EaVwcGYsmG
+OmQCbrz9fuv9y0b42VRfrG6F+4aBbJVF12eQtkSctDMENO0vHH7V+xUqDCqy
+zXYQ8NdrMLh/5zdQ8op7Z9bNgN4DZrTzWW1QEDR/NDyWAfYaDjmz4h1ANt1j
+6GTEgEM+zS57vnTCbW+xUKXdDHiqWJbsQ+qGu2px93ib6bB1I+2H6d/v4Nmq
+KnPbmQ5G3jE6MRE/8D5i7vPjp4OFT6cUD3cf+BN1Xd7VNAgIvcGzpeQn6DPU
+XCl6NDAQsb95VvEXCFmFLO5hTAJTMZOj9a0BuMaZG1TuNQmD/TSlSYlBoJcp
+iW5gmoRYDWGFcMYgkOzMTWe9f8Owspu8PWUI2DlH4gUYExD1jMPQ8/kwbL/g
+dVxIZwKE+OhZ2VdGQI7jzEGe91RQkCZYefePgtHxWS42NiocJSsEJw+Ogvey
+0X5Pg3EIUKTIGcWPQdqRoKh+fLV7dHf0mu04PMrxcPvfp1GQmTaqs5aiwswt
+NsQ3OwK+s07pFcwTcHO16OaD+WHIlO+ukqybgENle2PIC0Og3O0w1+L3G78v
+Hyg/qINgvHJSJlNnEj6rHNlJTxoAAwvlt+m7afD+7AZRi/R+GNS6t3OYSsM9
+6w+7o10vMK2UJ/LTaKC1/Dr9u1kvCCVvlr1O0KByO3n5pG4vmMwnGjT9pcGz
+rZfIHQq9MBDbk5jLQoeY6XZGNksv9I+oyXrgcwgSrFeqwufyw0nYkIdEhwbu
+ctupzB5of9X1Tr2UDl/JD3b1V3XDqsVEzcUKOjws/OfdlNsNRyVXBjU+0CE7
+RK8xPb4bvD8KC5E+0sHqo0LQBd9ukKDde63fQgfSATvTFdVuCFBijbIZp0P4
+1lbhI41dID8gGfBsDwN0acKnh2o7wTzjXHLIPgbQhdQa5Ys64bmjbm2oAAN8
+mmo6vd91wugWd5ZIEQawnjEZH/HphAjpes/Xkgwg9Z/hWlTqhEnfm87Z6gyo
+50zeI13YAW8OPbVucWaAW8xhoiysHUZ8shw43fHvrfINNzza4Uh/i6euJwOC
+as04xq3aoejF7qhePwZ0jwt9LFZuh6bNSdXj4Qz4XHHugPhkG/yZqNrHlMUA
+cQVVAXFog0s5f75IDTCAZYFzR0lrK4Sx8X53GGZA14FLHjllrdBpeWa4ZIwB
+oZzbEnziW8Fkv++iIp0B1H5u92LbVngUxiF6cYkByg3m2irbWiHe/qiXKTfO
+Eb7m2PtuX2FezkQ64gLuKWsGrRbEJ7hQdKEpToMAKz4d6vOSTxAjLW2afoWA
+Y6//OSo8/gSnJVjCKToE+H+LrGDZ+gk8hZOmGCY4tyQGuJn3NcGGbdRcDVfc
+y2eGZscFGkD3aau6ngcBZO7ricd66yFlU/kvMy/ce3+Rs1Oj60Gdmczh5o97
+WMQPMt+OeiDPidumheO9e01fc99ULewctD2+MYOA1yaLHhxeNWBqpF+/Mxvv
+wTlpk6GjNVDQq2LEn4f31hP9zP2d1aDdtev5iRK89/4W0VwPVsOLz4V00xoC
+5xe7xvR1BOMXXvvfx3tz6MQ91fHnVSBf7yfg2oi/+wviloKqP0APRVcz7CvO
+QTvq3AJ3JfCXzGdV4b1uGpYbym1eBvdPDKh++knA1L6tJ9iMS6Eqr7GvE3/3
+v2UV1th1tQR2HM93HMS5MmwUHWwkXQzGmS+30ccIuFLZoJHCWgR5Yr5JCzin
+5MuZmodrCoAp5Y7iBjruvQf3pi7fyYdrItodHDgnZ3RMbY/RciEx/sw9vln8
+3ej2YcenkiyYFTi44TDO6bXom7y/eNNBNXbbaxncA0grQo3afUkQyfv3hDLu
+HV4kPXVTlrcwGvXz8/p3kGhvX/DCKhmu82wrXe+hC6Lhnr99HOH/0U1Rvw==
+
+                    "], Automatic, 
+                    Hold[
+                    Nearest[CompressedData["
+1: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
+/h9A33dA
+                    "] -> CompressedData["
+1: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
+
+                    "]]]][
+                    Part[#, 1]]& )[
+                    MousePosition[{"Graphics", Graphics}, {0, 0}]], 
+                    CalculateUtilities`GraphicsUtilities`Private`scaled = 
+                    MousePosition[{"GraphicsScaled", Graphics}, None]}, 
+                   If[
+                   CalculateUtilities`GraphicsUtilities`Private`scaled === 
+                    None, {}, {
+                    Text[
+                    Style[
+                    Row[{
+                    (
+                    Function[{
+                    CalculateUtilities`GraphicsUtilities`Private`a, 
+                    CalculateUtilities`GraphicsUtilities`Private`acc}, 
+                    Quiet[
+                    RawBoxes[
+                    ToBoxes[
+                    NumberForm[CalculateUtilities`GraphicsUtilities`Private`a, 
+                    Max[1, 
+                    Ceiling[
+                    RealExponent[
+                    CalculateUtilities`GraphicsUtilities`Private`a] + 
+                    CalculateUtilities`GraphicsUtilities`Private`acc]], 
+                    ExponentFunction -> (Null& ), 
+                    NumberFormat -> (StringReplace[#, StringExpression[
+                    Pattern[CalculateUtilities`GraphicsUtilities`Private`s, 
+                    BlankSequence[]], ".", EndOfString] -> 
+                    CalculateUtilities`GraphicsUtilities`Private`s]& )]]]]][#,
+                     3]& )[
+                    Part[
+                    CalculateUtilities`GraphicsUtilities`Private`pt, 1, 1]], 
+                    (
+                    Function[{
+                    CalculateUtilities`GraphicsUtilities`Private`a, 
+                    CalculateUtilities`GraphicsUtilities`Private`acc}, 
+                    Quiet[
+                    RawBoxes[
+                    ToBoxes[
+                    NumberForm[CalculateUtilities`GraphicsUtilities`Private`a, 
+                    Max[1, 
+                    Ceiling[
+                    RealExponent[
+                    CalculateUtilities`GraphicsUtilities`Private`a] + 
+                    CalculateUtilities`GraphicsUtilities`Private`acc]], 
+                    ExponentFunction -> (Null& ), 
+                    NumberFormat -> (StringReplace[#, StringExpression[
+                    Pattern[CalculateUtilities`GraphicsUtilities`Private`s, 
+                    BlankSequence[]], ".", EndOfString] -> 
+                    CalculateUtilities`GraphicsUtilities`Private`s]& )]]]]][#,
+                     3]& )[
+                    Part[
+                    CalculateUtilities`GraphicsUtilities`Private`pt, 1, 2]]}, 
+                    ","], 12], 
+                    Part[
+                    CalculateUtilities`GraphicsUtilities`Private`pt, 1], {
+                    1.5 Sign[
+                    Part[CalculateUtilities`GraphicsUtilities`Private`scaled, 
+                    1] - 0.5], 0}, Background -> White], 
+                    AbsolutePointSize[7], 
+                    Point[CalculateUtilities`GraphicsUtilities`Private`pt], 
+                    White, 
+                    AbsolutePointSize[5], 
+                    Point[CalculateUtilities`GraphicsUtilities`Private`pt]}]],
+                   TraditionalForm, Graphics]]}, AxesOrigin -> {Automatic, 0},
+               PlotRange -> All, ImageSize -> 200, AspectRatio -> 
+              NCache[GoldenRatio^(-1), 0.6180339887498948], Axes -> True, 
+              AxesLabel -> {None, None}, AxesOrigin -> {0, 0}, 
+              BaseStyle -> {CellBaseline -> Baseline}, Epilog -> {
+                LineBox[{{0, 0}, {0, 0.9999999921880643}}], 
+                LineBox[{{1, 0}, {1, 0}}]}, FrameTicksStyle -> 
+              Directive[FontFamily -> "Times", FontSize -> 10], 
+              LabelStyle -> {FontFamily -> "Verdana", FontSize -> 10}, 
+              Method -> {"AxesInFront" -> True}, 
+              PlotRange -> {{-0.1, 1.1}, {0., 0.9999999921880643}}, 
+              PlotRangeClipping -> True, 
+              PlotRangePadding -> {Automatic, Automatic}, Prolog -> {
+                Opacity[0], 
+                TagBox[
+                 RectangleBox[
+                  Scaled[{0, 0}], 
+                  Scaled[{1, 1}]], Annotation[#, "Plot", "Frame"]& ]}, 
+              TicksStyle -> 
+              Directive[FontFamily -> "Times", FontSize -> 10]}], 
+            TraditionalForm]], "Output"]}], 
+       XMLElement["dataformats", {}, {"minput"}]}]}], Typeset`pod3$$ = 
+   XMLElement[
+   "pod", {"title" -> "Riemann sums", "scanner" -> "Integral", "id" -> 
+     "RiemannSums", "position" -> "300", "error" -> "false", "numsubpods" -> 
+     "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             FormBox[
+              StyleBox[
+               
+               DynamicModuleBox[{
+                CalculateScan`RiemannSumScanner`Private`intervals$$ = 10, 
+                 CalculateScan`RiemannSumScanner`Private`method$$ = 
+                 CalculateScan`RiemannSumScanner`Private`LeftValue, 
+                 CalculateUtilities`GraphicsUtilities`Private`more$$ = False, 
+                 Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+                 Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, 
+                 Typeset`animvar$$ = 1, Typeset`name$$ = "\"untitled\"", 
+                 Typeset`specs$$ = {{
+                    Hold[
+                    CalculateUtilities`GraphicsUtilities`Private`more$$], {
+                    False, True}}, {{
+                    Hold[CalculateScan`RiemannSumScanner`Private`intervals$$],
+                     10, "number of subintervals"}, 2, 100, 1}, {{
+                    Hold[CalculateScan`RiemannSumScanner`Private`method$$], 
+                    CalculateScan`RiemannSumScanner`Private`LeftValue, 
+                    "summation method"}, {
+                    CalculateScan`RiemannSumScanner`Private`LeftValue -> 
+                    "left endpoint", 
+                    CalculateScan`RiemannSumScanner`Private`MidpointValue -> 
+                    "midpoint", 
+                    CalculateScan`RiemannSumScanner`Private`RightValue -> 
+                    "right endpoint"}}, {
+                    Hold[
+                    Style[
+                    Overlay[{
+                    Dynamic[
+                    RawBoxes[
+                    FEPrivate`FrontEndResource[
+                    "WABitmaps", "PodInfoBackground"]]], 
+                    Pane[
+                    Column[{
+                    Manipulate`Place[1], 
+                    Manipulate`Place[2]}], 
+                    ImageMargins -> {{20, 30}, {10, 10}}]}, {1, 2}, 2, 
+                    Alignment -> {Left, Top}]]], 
+                    Manipulate`Dump`ThisIsNotAControl}}, Typeset`size$$ = 
+                 Automatic, Typeset`update$$ = 0, Typeset`initDone$$ = False, 
+                 Typeset`skipInitDone$$ = False, 
+                 CalculateUtilities`GraphicsUtilities`Private`more$1098893$$ = 
+                 False, CalculateScan`RiemannSumScanner`Private`intervals$\
+1098894$$ = 0, CalculateScan`RiemannSumScanner`Private`method$1098895$$ = 
+                 False}, 
+                DynamicBox[
+                 Manipulate`ManipulateBoxes[
+                 2, TraditionalForm, 
+                  "Variables" :> {
+                   CalculateScan`RiemannSumScanner`Private`intervals$$ = 10, 
+                    CalculateScan`RiemannSumScanner`Private`method$$ = 
+                    CalculateScan`RiemannSumScanner`Private`LeftValue, 
+                    CalculateUtilities`GraphicsUtilities`Private`more$$ = 
+                    False}, "ControllerVariables" :> {
+                    Hold[
+                    CalculateUtilities`GraphicsUtilities`Private`more$$, 
+                    CalculateUtilities`GraphicsUtilities`Private`more$1098893$\
+$, False], 
+                    Hold[
+                    CalculateScan`RiemannSumScanner`Private`intervals$$, 
+                    CalculateScan`RiemannSumScanner`Private`intervals$1098894$\
+$, 0], 
+                    Hold[
+                    CalculateScan`RiemannSumScanner`Private`method$$, 
+                    CalculateScan`RiemannSumScanner`Private`method$1098895$$, 
+                    False]}, 
+                  "OtherVariables" :> {
+                   Typeset`show$$, Typeset`bookmarkList$$, 
+                    Typeset`bookmarkMode$$, Typeset`animator$$, 
+                    Typeset`animvar$$, Typeset`name$$, Typeset`specs$$, 
+                    Typeset`size$$, Typeset`update$$, Typeset`initDone$$, 
+                    Typeset`skipInitDone$$}, "Body" :> Quiet[
+                    
+                    With[{CalculateScan`RiemannSumScanner`Private`delta$ = (1 + 
+                    0)/CalculateScan`RiemannSumScanner`Private`intervals$$, 
+                    CalculateScan`RiemannSumScanner`Private`epsilon$ = 
+                    RandomReal[{0, 0.001}]}, 
+                    Labeled[
+                    
+                    Plot[(1 - $CellContext`x^2)^
+                    Rational[1, 2], {$CellContext`x, -0.09999999999999998, 
+                    1.1}, PlotRange -> {{-0.09999999999999998, 
+                    1.1}, {-0.09999999999999998, 1.1}}, Prolog -> Table[
+                    (Flatten[{
+                    If[
+                    TrueQ[Part[#, 2, 2] > 0], {
+                    Opacity[0.1], Blue, 
+                    EdgeForm[
+                    RGBColor[{0.63, 0.64, 0.84}]]}, {
+                    Opacity[0.1], Red, 
+                    EdgeForm[
+                    RGBColor[{0.9, 0.64, 0.64}]]}], 
+                    Polygon[#]}]& )[
+                    ({{#, 0}, {#, #3}, {#2, #3}, {#2, 0}}& )[
+                    0 + CalculateScan`RiemannSumScanner`Private`i 
+                    CalculateScan`RiemannSumScanner`Private`delta$, 
+                    0 + (CalculateScan`RiemannSumScanner`Private`i + 1) 
+                    CalculateScan`RiemannSumScanner`Private`delta$, 
+                    (If[
+                    Or[
+                    Not[
+                    NumericQ[#]], 
+                    Not[
+                    FreeQ[#, 
+                    Alternatives[Complex, I]]]], 0, #]& )[
+                    Quiet[
+                    Which[
+                    MatchQ[
+                    CalculateScan`RiemannSumScanner`Private`method$$, 
+                    CalculateScan`RiemannSumScanner`Private`LeftValue], 
+                    (If[
+                    Not[
+                    NumericQ[#]], 
+                    N[
+                    
+                    ReplaceAll[(1 - $CellContext`x^2)^
+                    Rational[1, 2], $CellContext`x -> 
+                    0 + CalculateScan`RiemannSumScanner`Private`i 
+                    CalculateScan`RiemannSumScanner`Private`delta$ + 
+                    CalculateScan`RiemannSumScanner`Private`epsilon$]], #]& )[
+                    
+                    N[
+                    
+                    ReplaceAll[(1 - $CellContext`x^2)^
+                    Rational[1, 2], $CellContext`x -> 
+                    0 + CalculateScan`RiemannSumScanner`Private`i 
+                    CalculateScan`RiemannSumScanner`Private`delta$]]], 
+                    MatchQ[
+                    CalculateScan`RiemannSumScanner`Private`method$$, 
+                    CalculateScan`RiemannSumScanner`Private`MidpointValue], 
+                    (If[
+                    Not[
+                    NumericQ[#]], 
+                    N[
+                    
+                    ReplaceAll[(1 - $CellContext`x^2)^
+                    Rational[1, 2], $CellContext`x -> 
+                    0 + (CalculateScan`RiemannSumScanner`Private`i 
+                    CalculateScan`RiemannSumScanner`Private`delta$ + (
+                    CalculateScan`RiemannSumScanner`Private`i + 1) 
+                    CalculateScan`RiemannSumScanner`Private`delta$)/2 + 
+                    CalculateScan`RiemannSumScanner`Private`epsilon$]], #]& )[
+                    
+                    N[
+                    
+                    ReplaceAll[(1 - $CellContext`x^2)^
+                    Rational[1, 2], $CellContext`x -> 
+                    0 + (CalculateScan`RiemannSumScanner`Private`i 
+                    CalculateScan`RiemannSumScanner`Private`delta$ + (
+                    CalculateScan`RiemannSumScanner`Private`i + 1) 
+                    CalculateScan`RiemannSumScanner`Private`delta$)/2]]], 
+                    MatchQ[
+                    CalculateScan`RiemannSumScanner`Private`method$$, 
+                    CalculateScan`RiemannSumScanner`Private`RightValue], 
+                    (If[
+                    Not[
+                    NumericQ[#]], 
+                    N[
+                    
+                    ReplaceAll[(1 - $CellContext`x^2)^
+                    Rational[1, 2], $CellContext`x -> 
+                    0 + (CalculateScan`RiemannSumScanner`Private`i + 1) 
+                    CalculateScan`RiemannSumScanner`Private`delta$ - 
+                    CalculateScan`RiemannSumScanner`Private`epsilon$]], #]& )[
+                    
+                    N[
+                    
+                    ReplaceAll[(1 - $CellContext`x^2)^
+                    Rational[1, 2], $CellContext`x -> 
+                    0 + (CalculateScan`RiemannSumScanner`Private`i + 1) 
+                    CalculateScan`RiemannSumScanner`Private`delta$]]], True, 
+                    0]]]]], {
+                    CalculateScan`RiemannSumScanner`Private`i, 0, 
+                    CalculateScan`RiemannSumScanner`Private`intervals$$ - 1}],
+                     PlotStyle -> AbsoluteThickness[1], ImageSize -> 1.5 200], 
+                    (If[
+                    NumericQ[#], 
+                    Grid[{{
+                    Row[{
+                    Style["integral: ", 
+                    GrayLevel[0.6]], 
+                    TildeTilde[Rational[1, 4] Pi, 0.7853981633974483]}]}, {
+                    Row[{
+                    Style["Riemann sum: ", 
+                    GrayLevel[0.6]], #}]}, {
+                    Row[{
+                    Style["error: ", 
+                    GrayLevel[0.6]], 
+                    Abs[# - Rational[1, 4] Pi]}]}}, Alignment -> ":"], 
+                    ""]& )[
+                    (Chop[
+                    N[
+                    TimeConstrained[
+                    Simplify[#], 0.5, #]]]& )[
+                    Quiet[CalculateScan`RiemannSumScanner`Private`delta$ Sum[
+                    
+                    ReplaceAll[(1 - $CellContext`x^2)^
+                    Rational[1, 2], {$CellContext`x -> 
+                    0 + CalculateScan`RiemannSumScanner`Private`k 
+                    CalculateScan`RiemannSumScanner`Private`delta$ + 
+                    CalculateScan`RiemannSumScanner`Private`delta$ 
+                    ReplaceAll[
+                    CalculateScan`RiemannSumScanner`Private`method$$, {
+                    CalculateScan`RiemannSumScanner`Private`LeftValue -> 0, 
+                    CalculateScan`RiemannSumScanner`Private`MidpointValue -> 
+                    Rational[1, 2], 
+                    CalculateScan`RiemannSumScanner`Private`RightValue -> 
+                    1}]}], {
+                    CalculateScan`RiemannSumScanner`Private`k, 0, 
+                    CalculateScan`RiemannSumScanner`Private`intervals$$ - 
+                    1}]]]]]]], 
+                  "Specifications" :> {{
+                    CalculateUtilities`GraphicsUtilities`Private`more$$, {
+                    False, True}, ControlType -> None}, {{
+                    CalculateScan`RiemannSumScanner`Private`intervals$$, 10, 
+                    "number of subintervals"}, 2, 100, 1, ControlPlacement -> 
+                    1}, {{CalculateScan`RiemannSumScanner`Private`method$$, 
+                    CalculateScan`RiemannSumScanner`Private`LeftValue, 
+                    "summation method"}, {
+                    CalculateScan`RiemannSumScanner`Private`LeftValue -> 
+                    "left endpoint", 
+                    CalculateScan`RiemannSumScanner`Private`MidpointValue -> 
+                    "midpoint", 
+                    CalculateScan`RiemannSumScanner`Private`RightValue -> 
+                    "right endpoint"}, ControlPlacement -> 2}, 
+                    Style[
+                    Overlay[{
+                    Dynamic[
+                    RawBoxes[
+                    FEPrivate`FrontEndResource[
+                    "WABitmaps", "PodInfoBackground"]]], 
+                    Pane[
+                    Column[{
+                    Manipulate`Place[1], 
+                    Manipulate`Place[2]}], 
+                    ImageMargins -> {{20, 30}, {10, 10}}]}, {1, 2}, 2, 
+                    Alignment -> {Left, Top}]]}, 
+                  "Options" :> {
+                   ControlPlacement -> Bottom, 
+                    FrameMargins -> {{0, 0}, {0, 10}}, Paneled -> False, 
+                    AppearanceElements -> {}, 
+                    LabelStyle -> {
+                    "DialogStyle", FontColor -> GrayLevel[0.25]}}, 
+                  "DefaultOptions" :> {}], SingleEvaluation -> True], 
+                Initialization :> ({None, 
+                   ReleaseHold[
+                    Uncompress[
+                    "1:eJztVm1v0zAQbinv7/\
+APkPiMGEy8fEACOhiTBpSkfK8XX1IL1w62sw3+PPjsJmnWrlJMB2hKP5zqS/\
+P47rnnrvfgQEZpv9fr6YvWfJCcplfwdN+\
+aoZzlshD03XGuQGsmRXoBn123JgazA5z8AOp9l615L9WMGH9+\
+he8TnhScGPhqGGeGgZ7sKpJPWaJrz0ixQ/uTCZcJ4ewnPNx6/PLFs+\
+fbHgZjGRFjQAn9tC1kPlVEQ9pDoEvWvOVEfPPHe+\
+XxU8F5DN8LEAnoO9Y7VoRaGCkIx3yCbz3fTN3ExAwRlCh65jQ5eQ7bXqCNYiIbwyzHN04na6stMFGZ\
+9tzcKrlZpyAf/lV8IGMXk/e4pN3ZERgWxjmj76Ss/jl3Azy/bguv5NFq4jC/\
+Nxx5I4Ydgl6m81HrOnlGqq510c+5Oqv5stEgT58y9f/\
+SPtNmOYwnbcOA2YGt8WrtLcNvt4WXOXb9XNy3rfnsHSXgquFQCe6jpAWfR9FMeeAl2j5dnVuHx7hR8\
+R2jM6SCFU5k4yz7xfXH3Qq83hRirN1kA9IR9QyIIAfroo7bHZYxM5wSRRILPL+\
+uXzbZWNahBNzZvvZMUGYHmCdk3fKEZi9dqDsxyfTLHxW3ksuJJkPe94SBDNRa0V/D+\
+ihLrqBjGRhJjBc09RrMYZXUiKhg2Q9KkDgngiEk+2U/7pt/uFgJpGpXobqUZ3HgSnMcnkS/LPA+\
+iMxMmzt24OgKblvMJpJHteoilqaL02ZzTPebTDduaA70UBJCSxI+0LtNodsU/\
+uqmsLQHd2tCtyZ0a0K3JnRrwv+7JriI8V/pN7M6uLY="]]}; Typeset`initDone$$ = True), 
+                DynamicModuleValues :> {}, Deinitialization :> None, 
+                UntrackedVariables :> {Typeset`size$$}, 
+                SynchronousInitialization -> True, 
+                UnsavedVariables :> {Typeset`initDone$$}], "Manipulate", 
+               Deployed -> True, StripOnInput -> False], TraditionalForm], 
+             Manipulate`InterpretManipulate[1]], TraditionalForm]], 
+          "Output"]}], 
+       XMLElement["dataformats", {}, {}]}]}], Typeset`pod4$$ = XMLElement[
+   "pod", {"title" -> "Indefinite integrals", "scanner" -> "Integral", "id" -> 
+     "IndefiniteIntegral", "position" -> "100", "error" -> "false", 
+     "numsubpods" -> "2"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["minput", {}, {"Integrate[Sqrt[1 - x^2], x]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            RowBox[{
+              TagBox[
+               RowBox[{"\[Integral]", 
+                 RowBox[{
+                   TagBox[
+                    SqrtBox[
+                    RowBox[{"1", "-", 
+                    SuperscriptBox["x", "2"]}]], HoldForm], 
+                   RowBox[{"\[DifferentialD]", "x"}]}]}], HoldForm], 
+              "\[LongEqual]", 
+              TagBox[
+               StyleBox[
+                RowBox[{
+                  StyleBox[
+                   RowBox[{
+                    FractionBox["1", "2"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    SqrtBox[
+                    RowBox[{"1", "-", 
+                    SuperscriptBox["x", "2"]}]], " ", "x"}], "+", 
+                    RowBox[{
+                    SuperscriptBox["sin", 
+                    RowBox[{"-", "1"}]], "(", "x", ")"}]}], ")"}]}], 
+                   LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                   0, 
+                   GrayLevel[0], StripOnInput -> False], "+", 
+                  StyleBox[
+                  "constant", FontFamily -> "Helvetica", Magnification -> 
+                   0.9 Inherited]}], 
+                LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 0, 
+                
+                GrayLevel[0.6], StripOnInput -> False], Identity]}], 
+            TraditionalForm]], "Output"]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,moutput,computabledata,formatteddata,formuladata"}]}\
+], 
+     XMLElement["subpod", {"title" -> "Possible intermediate steps"}, {
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             GridBox[{{
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\"Take the integral:\""}, "RowDefault"], 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, StripOnInput -> False]}, {
+                    RowBox[{"\[Integral]", 
+                    RowBox[{
+                    SqrtBox[
+                    RowBox[{"1", "-", 
+                    SuperscriptBox["x", "2"]}]], 
+                    RowBox[{"\[DifferentialD]", "x"}]}]}]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                  GridBoxSpacings -> {
+                   "Columns" -> {{None}}, "Rows" -> {{0.5}}}], "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\"For the integrand \"", 
+                    SqrtBox[
+                    RowBox[{"1", "-", 
+                    SuperscriptBox["x", "2"]}]], "\",\"", "\"\"", 
+                    "\" substitute \"", 
+                    RowBox[{"x", "\[LongEqual]", 
+                    RowBox[{"sin", "(", "u", ")"}]}], "\" and \"", 
+                    RowBox[{
+                    
+                    RowBox[{
+                    "\[DifferentialD]", "\[NegativeVeryThinSpace]", "x"}], 
+                    "\[LongEqual]", 
+                    RowBox[{
+                    RowBox[{"cos", "(", "u", ")"}], " ", 
+                    
+                    RowBox[{"\[DifferentialD]", "\[NegativeVeryThinSpace]", 
+                    "u"}]}]}], "\". Then \"", 
+                    SqrtBox[
+                    RowBox[{"1", "-", 
+                    SuperscriptBox["x", "2"]}]], "\" = \"", 
+                    SqrtBox[
+                    RowBox[{"1", "-", 
+                    RowBox[{
+                    SuperscriptBox["sin", "2"], "(", "u", ")"}]}]], "\" = \"", 
+                    RowBox[{"cos", "(", "u", ")"}], "\" and \"", 
+                    RowBox[{"u", "\[LongEqual]", 
+                    RowBox[{
+                    SuperscriptBox["sin", 
+                    RowBox[{"-", "1"}]], "(", "x", ")"}]}], "\":\""}, 
+                    "RowDefault"], 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, StripOnInput -> False]}, {
+                    TemplateBox[{"\" \[LongEqual] \"", 
+                    RowBox[{"\[Integral]", 
+                    RowBox[{
+                    RowBox[{
+                    SuperscriptBox["cos", "2"], "(", "u", ")"}], 
+                    RowBox[{"\[DifferentialD]", "u"}]}]}]}, "RowDefault"]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\"Write \"", 
+                    RowBox[{
+                    SuperscriptBox["cos", "2"], "(", "u", ")"}], "\" as \"", 
+                    RowBox[{
+                    RowBox[{
+                    FractionBox["1", "2"], " ", 
+                    RowBox[{"cos", "(", 
+                    RowBox[{"2", " ", "u"}], ")"}]}], "+", 
+                    FractionBox["1", "2"]}], "\":\""}, "RowDefault"], 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, StripOnInput -> False]}, {
+                    TemplateBox[{"\" \[LongEqual] \"", 
+                    RowBox[{"\[Integral]", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    FractionBox["1", "2"], " ", 
+                    RowBox[{"cos", "(", 
+                    RowBox[{"2", " ", "u"}], ")"}]}], "+", 
+                    FractionBox["1", "2"]}], ")"}], 
+                    RowBox[{"\[DifferentialD]", "u"}]}]}]}, "RowDefault"]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    
+                    TemplateBox[{
+                    "\"Integrate the sum term by term and factor out \
+constants:\""}, "RowDefault"], 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, StripOnInput -> False]}, {
+                    TemplateBox[{"\" \[LongEqual] \"", 
+                    RowBox[{
+                    RowBox[{
+                    FractionBox["1", "2"], 
+                    RowBox[{"\[Integral]", 
+                    RowBox[{"1", 
+                    RowBox[{"\[DifferentialD]", "u"}]}]}]}], "+", 
+                    RowBox[{
+                    FractionBox["1", "2"], 
+                    RowBox[{"\[Integral]", 
+                    RowBox[{
+                    RowBox[{"cos", "(", 
+                    RowBox[{"2", " ", "u"}], ")"}], 
+                    RowBox[{"\[DifferentialD]", "u"}]}]}]}]}]}, 
+                    "RowDefault"]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\"For the integrand \"", 
+                    RowBox[{"cos", "(", 
+                    RowBox[{"2", " ", "u"}], ")"}], "\", substitute \"", 
+                    RowBox[{"s", "\[LongEqual]", 
+                    RowBox[{"2", " ", "u"}]}], "\" and \"", 
+                    RowBox[{
+                    
+                    RowBox[{
+                    "\[DifferentialD]", "\[NegativeVeryThinSpace]", "s"}], 
+                    "\[LongEqual]", "2"}], "\"\"", 
+                    TemplateBox[{"\"\[ThinSpace]\"", 
+                    
+                    RowBox[{
+                    "\[DifferentialD]", "\[NegativeVeryThinSpace]", "u"}]}, 
+                    "RowDefault"], "\":\""}, "RowDefault"], 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, StripOnInput -> False]}, {
+                    TemplateBox[{"\" \[LongEqual] \"", 
+                    RowBox[{
+                    RowBox[{
+                    FractionBox["1", "4"], 
+                    RowBox[{"\[Integral]", 
+                    RowBox[{
+                    RowBox[{"cos", "(", "s", ")"}], 
+                    RowBox[{"\[DifferentialD]", "s"}]}]}]}], "+", 
+                    RowBox[{
+                    FractionBox["1", "2"], 
+                    RowBox[{"\[Integral]", 
+                    RowBox[{"1", 
+                    RowBox[{"\[DifferentialD]", "u"}]}]}]}]}]}, 
+                    "RowDefault"]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\"The integral of \"", 
+                    RowBox[{"cos", "(", "s", ")"}], "\" is \"", 
+                    RowBox[{"sin", "(", "s", ")"}], "\":\""}, "RowDefault"], 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, StripOnInput -> False]}, {
+                    TemplateBox[{"\" \[LongEqual] \"", 
+                    RowBox[{
+                    FractionBox[
+                    RowBox[{"sin", "(", "s", ")"}], "4"], "+", 
+                    RowBox[{
+                    FractionBox["1", "2"], 
+                    RowBox[{"\[Integral]", 
+                    RowBox[{"1", 
+                    RowBox[{"\[DifferentialD]", "u"}]}]}]}]}]}, 
+                    "RowDefault"]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    
+                    TemplateBox[{
+                    "\"The integral of \"", "1", "\" is \"", "u", "\":\""}, 
+                    "RowDefault"], 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, StripOnInput -> False]}, {
+                    TemplateBox[{"\" \[LongEqual] \"", 
+                    StyleBox[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    FractionBox[
+                    RowBox[{"sin", "(", "s", ")"}], "4"], "+", 
+                    FractionBox["u", "2"]}], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, 
+                    GrayLevel[0], StripOnInput -> False], "+", 
+                    StyleBox[
+                    "constant", FontFamily -> "Helvetica", Magnification -> 
+                    0.9 Inherited]}], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, 
+                    GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{
+                    FormBox[
+                    TagBox[
+                    FormBox[
+                    TemplateBox[{"\"Substitute back for \"", 
+                    RowBox[{"s", "\[LongEqual]", 
+                    RowBox[{"2", " ", "u"}]}], "\":\""}, "RowDefault"], 
+                    TraditionalForm], Format[#, TraditionalForm]& ], 
+                    TraditionalForm]}, "RowDefault"], 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, StripOnInput -> False]}, {
+                    TemplateBox[{"\" \[LongEqual] \"", 
+                    StyleBox[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    FractionBox["u", "2"], "+", 
+                    RowBox[{
+                    FractionBox["1", "4"], " ", 
+                    RowBox[{"sin", "(", 
+                    RowBox[{"2", " ", "u"}], ")"}]}]}], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, 
+                    GrayLevel[0], StripOnInput -> False], "+", 
+                    StyleBox[
+                    "constant", FontFamily -> "Helvetica", Magnification -> 
+                    0.9 Inherited]}], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, 
+                    GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{
+                    FormBox[
+                    TagBox[
+                    FormBox[
+                    TemplateBox[{"\"Apply the double angle formula \"", 
+                    TagBox[
+                    RowBox[{
+                    RowBox[{"sin", "(", 
+                    RowBox[{"2", " ", "u"}], ")"}], "\[LongEqual]", 
+                    RowBox[{"2", " ", 
+                    RowBox[{"cos", "(", "u", ")"}], " ", 
+                    RowBox[{"sin", "(", "u", ")"}]}]}], HoldForm]}, 
+                    "RowDefault"], TraditionalForm], 
+                    Format[#, TraditionalForm]& ], TraditionalForm]}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, StripOnInput -> False]}, {
+                    TemplateBox[{"\" \[LongEqual] \"", 
+                    StyleBox[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    FractionBox["u", "2"], "+", 
+                    RowBox[{
+                    FractionBox["1", "2"], " ", 
+                    RowBox[{"sin", "(", "u", ")"}], " ", 
+                    RowBox[{"cos", "(", "u", ")"}]}]}], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, 
+                    GrayLevel[0], StripOnInput -> False], "+", 
+                    StyleBox[
+                    "constant", FontFamily -> "Helvetica", Magnification -> 
+                    0.9 Inherited]}], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, 
+                    GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{
+                    FormBox[
+                    TagBox[
+                    FormBox[
+                    TemplateBox[{"\"Express \"", 
+                    RowBox[{"cos", "(", "u", ")"}], "\" in terms of \"", 
+                    RowBox[{"sin", "(", "u", ")"}], "\" using \"", 
+                    RowBox[{
+                    RowBox[{
+                    SuperscriptBox["cos", "2"], "(", "u", ")"}], 
+                    "\[LongEqual]", 
+                    RowBox[{"1", "-", 
+                    RowBox[{
+                    SuperscriptBox["sin", "2"], "(", "u", ")"}]}]}]}, 
+                    "RowDefault"], TraditionalForm], 
+                    Format[#, TraditionalForm]& ], TraditionalForm]}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, StripOnInput -> False]}, {
+                    TemplateBox[{"\" \[LongEqual] \"", 
+                    StyleBox[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    FractionBox["u", "2"], "+", 
+                    RowBox[{
+                    FractionBox["1", "2"], " ", 
+                    RowBox[{"sin", "(", "u", ")"}], " ", 
+                    SqrtBox[
+                    RowBox[{"1", "-", 
+                    RowBox[{
+                    SuperscriptBox["sin", "2"], "(", "u", ")"}]}]]}]}], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, 
+                    GrayLevel[0], StripOnInput -> False], "+", 
+                    StyleBox[
+                    "constant", FontFamily -> "Helvetica", Magnification -> 
+                    0.9 Inherited]}], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, 
+                    GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{
+                    FormBox[
+                    TagBox[
+                    FormBox[
+                    TemplateBox[{"\"Substitute back for \"", 
+                    TagBox[
+                    RowBox[{"u", "\[LongEqual]", 
+                    RowBox[{
+                    SuperscriptBox["sin", 
+                    RowBox[{"-", "1"}]], "(", "x", ")"}]}], HoldForm], 
+                    "\":\""}, "RowDefault"], TraditionalForm], 
+                    Format[#, TraditionalForm]& ], TraditionalForm]}, 
+                    "RowDefault"], 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, StripOnInput -> False]}, {
+                    TemplateBox[{"\" \[LongEqual] \"", 
+                    StyleBox[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    RowBox[{
+                    FractionBox["1", "2"], " ", 
+                    SqrtBox[
+                    RowBox[{"1", "-", 
+                    SuperscriptBox["x", "2"]}]], " ", "x"}], "+", 
+                    RowBox[{
+                    FractionBox["1", "2"], " ", 
+                    RowBox[{
+                    SuperscriptBox["sin", 
+                    RowBox[{"-", "1"}]], "(", "x", ")"}]}]}], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, 
+                    GrayLevel[0], StripOnInput -> False], "+", 
+                    StyleBox[
+                    "constant", FontFamily -> "Helvetica", Magnification -> 
+                    0.9 Inherited]}], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, 
+                    GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\"Which is equal to:\""}, "RowDefault"], 
+                    GrayLevel[0.5], StripOnInput -> False], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, StripOnInput -> False]}, {
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    TemplateBox[{"\"Answer\"", "\":\""}, "RowDefault"], 
+                    FontFamily -> "Arial", FontSize -> 12, StripOnInput -> 
+                    False], "\[SpanFromLeft]"}, {"\"\"", 
+                    TemplateBox[{"\" \[LongEqual] \"", 
+                    StyleBox[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    FractionBox["1", "2"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    SqrtBox[
+                    RowBox[{"1", "-", 
+                    SuperscriptBox["x", "2"]}]], " ", "x"}], "+", 
+                    RowBox[{
+                    SuperscriptBox["sin", 
+                    RowBox[{"-", "1"}]], "(", "x", ")"}]}], ")"}]}], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, 
+                    GrayLevel[0], StripOnInput -> False], "+", 
+                    StyleBox[
+                    "constant", FontFamily -> "Helvetica", Magnification -> 
+                    0.9 Inherited]}], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, 
+                    GrayLevel[0.6], StripOnInput -> False]}, "RowDefault"]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
+                    AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{
+                    RGBColor[{1., 0.984313725490196, 0.6745098039215687}]}}}, 
+                    GridBoxFrame -> {
+                    "ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> True}}, 
+                    GridBoxItemSize -> {"Columns" -> {2.5, Automatic}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {2, 0, 3}, "Rows" -> {1.5, 1, 2}}, 
+                    AllowScriptLevelChange -> False, FrameStyle -> 
+                    RGBColor[{0.8196078431372549, 0.788235294117647, 
+                    0.16078431372549018`}]], "Grid"]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+              AllowScriptLevelChange -> False, DefaultBaseStyle -> "Column", 
+              GridBoxDividers -> {
+               "Columns" -> {{False}}, "Rows" -> {False, {True}, False}}, 
+              GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+              GridBoxSpacings -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{3}}}, FrameStyle -> 
+              GrayLevel[0.7]], "Column"], TraditionalForm]], "Output"]}], 
+       XMLElement["dataformats", {}, {"plaintext"}]}], 
+     XMLElement["states", {"count" -> "2"}, {
+       XMLElement[
+       "state", {
+        "name" -> "Approximate form", "input" -> 
+         "IndefiniteIntegral__Approximate form"}, {}], 
+       XMLElement[
+       "state", {
+        "name" -> "Hide steps", "input" -> 
+         "IndefiniteIntegral__Hide steps"}, {}]}], 
+     XMLElement["infos", {"count" -> "1"}, {
+       XMLElement[
+       "info", {"text" -> "sin^(-1)(x) is the inverse sine function"}, {
+         XMLElement[
+         "link", {
+          "url" -> "http://reference.wolfram.com/mathematica/ref/ArcSin.html",
+            "text" -> "Documentation", "title" -> "Mathematica"}, {}], 
+         XMLElement[
+         "link", {
+          "url" -> "http://functions.wolfram.com/ElementaryFunctions/ArcSin", 
+           "text" -> "Properties", "title" -> "Wolfram Functions Site"}, {}], 
+         
+         XMLElement[
+         "link", {
+          "url" -> "http://mathworld.wolfram.com/InverseSine.html", "text" -> 
+           "Definition", "title" -> "MathWorld"}, {}], 
+         XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+           Cell[
+            BoxData[
+             StyleBox[
+              FormBox[
+               StyleBox[
+                TemplateBox[{" ", "\" \"", 
+                  StyleBox[
+                   RowBox[{
+                    SuperscriptBox["sin", 
+                    RowBox[{"-", "1"}]], "(", "x", ")"}], FontFamily -> 
+                   "Bitstream Charter", Bold, 14, StripOnInput -> False], 
+                  "\"is the inverse sine function\""}, "RowWithSeparators"], 
+                GrayLevel[0.3], StripOnInput -> False], TraditionalForm], 
+              FontFamily -> "Verdana", FontSize -> 12]], "Output", 
+            LinebreakAdjustments -> {1, 10, 0, 0, 10}]}]}]}]}], 
+   Typeset`aux1$$ = {True, False, {False}, True}, Typeset`aux2$$ = {
+   True, False, {False}, True}, Typeset`aux3$$ = {True, False, {False}, True},
+    Typeset`aux4$$ = {True, False, {False, False}, True}, 
+   Typeset`asyncpods$$ = {}, Typeset`nonpods$$ = {}, Typeset`initdone$$ = 
+   True, Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> "false", "numpods" -> "4", "datatypes" -> 
+    "", "timedout" -> "", "timedoutpods" -> "", "timing" -> "2.963", 
+    "parsetiming" -> "0.415", "parsetimedout" -> "false", "recalculate" -> "",
+     "id" -> "MSPa108221dh555d73cf39e2000019ig63318bgbff8g", "host" -> 
+    "http://www4a.wolframalpha.com", "server" -> "59", "related" -> 
+    "http://www4a.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
+MSPa108321dh555d73cf39e200004ic2f650e4a9db55&s=59", "version" -> "2.6"}, 
+   Typeset`sessioninfo$$ = {
+   "TimeZone" -> -3., 
+    "Date" -> {2013, 12, 1, 10, 30, 48.992303`8.44270283105147}, "Line" -> 42,
+     "SessionID" -> 23559399580589313043}, Typeset`showpods$$ = {1, 2, 3, 4}, 
+   Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = False, 
+   Typeset`newq$$ = "Integrate[Sqrt[1-x^2], {x, 0, 1}]"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}, {
+        Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$}, 
+        Typeset`chosen$$, Typeset`open$$, Typeset`elements$$, Typeset`q$$, 
+        Typeset`opts$$, Typeset`nonpods$$, Typeset`queryinfo$$, 
+        Typeset`sessioninfo$$, Typeset`showpods$$, Typeset`failedpods$$, 
+        Typeset`newq$$}]], StandardForm],
+    ImageSizeCache->{1153., {1012., 1017.}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     Not[Typeset`initdone$$], WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}],
+        Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = True],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{3.594893449215355*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WolframAlpha", "[", 
+  RowBox[{"\"\<Integrate[Sqrt[1-x^2], {x, 0, 1}]\>\"", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\"\<IndefiniteIntegral\>\"", ",", "1"}], "}"}], ",", 
+     "\"\<Output\>\""}], "}"}], ",", 
+   RowBox[{"PodStates", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<IndefiniteIntegral__Approximate form\>\"", ",", 
+      "\"\<IndefiniteIntegral__Exact form\>\""}], "}"}]}]}], "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"HoldComplete", "[", 
+  RowBox[{
+   FractionBox["1", "2"], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"x", " ", 
+      SqrtBox[
+       RowBox[{"1", "-", 
+        SuperscriptBox["x", "2"]}]]}], "+", 
+     RowBox[{"ArcSin", "[", "x", "]"}]}], ")"}]}], "]"}]], "Output",
+ CellChangeTimes->{{3.5948943740091887`*^9, 3.594894389689931*^9}, 
+   3.5948944276173067`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"funx", "[", "x_", "]"}], " ", "=", " ", 
+  RowBox[{"ReleaseHold", "[", "%", "]"}]}]], "Input",
+ CellChangeTimes->{{3.5948941076248817`*^9, 3.594894224446431*^9}, {
+   3.5948942800467167`*^9, 3.5948943176296663`*^9}, {3.5948943806767387`*^9, 
+   3.59489439414047*^9}, 3.594894429548835*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "2"], " ", 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"x", " ", 
+     SqrtBox[
+      RowBox[{"1", "-", 
+       SuperscriptBox["x", "2"]}]]}], "+", 
+    RowBox[{"ArcSin", "[", "x", "]"}]}], ")"}]}]], "Output",
+ CellChangeTimes->{
+  3.594894121084011*^9, {3.594894164883046*^9, 3.5948942247958193`*^9}, {
+   3.594894280506544*^9, 3.5948943183457727`*^9}, {3.594894382271489*^9, 
+   3.594894395300805*^9}, 3.59489443020063*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"funx", "[", "1", "]"}]], "Input",
+ CellChangeTimes->{{3.5948941249964867`*^9, 3.59489412730165*^9}}],
+
+Cell[BoxData[
+ FractionBox["\[Pi]", "4"]], "Output",
+ CellChangeTimes->{
+  3.594894127641672*^9, {3.594894168550828*^9, 3.5948942414748287`*^9}, {
+   3.594894285822867*^9, 3.594894319247394*^9}, 3.5948943994592447`*^9, 
+   3.594894431253023*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"funx", "[", "0", "]"}]], "Input",
+ CellChangeTimes->{{3.594894129018147*^9, 3.594894130909144*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{
+  3.5948941312186193`*^9, 3.594894170667554*^9, 3.5948942182071533`*^9, {
+   3.594894288453569*^9, 3.594894320278282*^9}, 3.594894400376815*^9}]
+}, Open  ]]
+},
+WindowSize->{1278, 947},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"8.0 for Linux x86 (64-bit) (February 23, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 301, 6, 30, "Input"],
+Cell[883, 30, 83061, 1592, 2046, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[83981, 1627, 466, 12, 50, "Input"],
+Cell[84450, 1641, 392, 12, 49, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[84879, 1658, 324, 6, 30, "Input"],
+Cell[85206, 1666, 465, 13, 49, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[85708, 1684, 124, 2, 30, "Input"],
+Cell[85835, 1688, 245, 5, 45, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[86117, 1698, 123, 2, 30, "Input"],
+Cell[86243, 1702, 193, 3, 30, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

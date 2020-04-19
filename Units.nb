@@ -1,0 +1,412 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     15484,        404]
+NotebookOptionsPosition[     12635,        344]
+NotebookOutlinePosition[     12974,        359]
+CellTagsIndexPosition[     12931,        356]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"1", 
+    SuperscriptBox["cm", 
+     RowBox[{"3", " "}]], "Gold", " ", 
+    RowBox[{"weight", ":"}]}], " ", "*)"}], " ", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Quantity", "[", 
+    RowBox[{"1", ",", " ", 
+     SuperscriptBox["\"\<Centimeters\>\"", "3"]}], "]"}], 
+   RowBox[{"ElementData", "[", 
+    RowBox[{"\"\<Gold\>\"", ",", " ", "\"\<Density\>\""}], "]"}]}]}]], "Input",\
+
+ CellChangeTimes->{{3.786857467079316*^9, 3.786857588703307*^9}, {
+  3.786857631255652*^9, 3.786857636052237*^9}, {3.786857669789299*^9, 
+  3.7868577395049677`*^9}, {3.786857945967021*^9, 3.786858051633314*^9}, {
+  3.786858118204383*^9, 3.786858161332081*^9}, {3.786858192600346*^9, 
+  3.786858248286338*^9}, {3.786869018149516*^9, 3.7868690402953653`*^9}, {
+  3.786869084434621*^9, 3.786869085927684*^9}},
+ CellLabel->"In[21]:=",ExpressionUUID->"9a0e0b32-1597-4e1d-a609-8576fc890d5e"],
+
+Cell[BoxData[
+ TemplateBox[{"0.0193`3.","\"kg\"","kilograms","\"Kilograms\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7868580167394342`*^9, 3.7868580522012*^9}, 
+   3.786858126374263*^9, {3.7868581571769876`*^9, 3.786858267667775*^9}, 
+   3.786868927178042*^9, {3.786869005134877*^9, 3.786869040907712*^9}, 
+   3.786869086958387*^9, 3.78686913272649*^9},
+ CellLabel->"Out[21]=",ExpressionUUID->"e4a7ba17-8570-48b7-9f7b-f79cb6c87e60"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"UnitConvert", "[", 
+  RowBox[{
+   RowBox[{"Quantity", "[", 
+    RowBox[{"0.0193`3.", ",", "\"\<Kilograms\>\""}], "]"}], ",", 
+   "\"\<TroyOunces\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.786858272242894*^9, 3.786858273436562*^9}},
+ NumberMarks->False,
+ CellLabel->"In[22]:=",ExpressionUUID->"bfa720cb-7bc1-4e32-aa2f-35f4d8a6ac0d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "0.6205094087745200237`3.","\"oz t\"","troy ounces","\"TroyOunces\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7868582533653*^9, 3.7868582738980207`*^9}, 
+   3.78686892836483*^9, {3.786869005457861*^9, 3.786869048967586*^9}, 
+   3.78686908815032*^9, 3.786869133697022*^9},
+ CellLabel->"Out[22]=",ExpressionUUID->"caae8296-615f-46a2-bf31-e64024b985e1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"Price", ":"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"UnitConvert", "[", 
+    RowBox[{
+     RowBox[{"Quantity", "[", 
+      RowBox[{"0.0193`3.", ",", "\"\<Kilograms\>\""}], "]"}], ",", 
+     "\"\<TroyOunces\>\""}], "]"}], " ", 
+   RowBox[{
+    RowBox[{"Entity", "[", 
+     RowBox[{"\"\<Element\>\"", ",", " ", "\"\<Gold\>\""}], "]"}], "[", 
+    "\"\<Price\>\"", "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.786869324905382*^9, 3.786869369876287*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"86598e28-0ff5-4b95-892e-090fc31897b7"],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    TagBox[
+     InterpretationBox["\"939.92\"", 939.9166269412042, AutoDelete -> True], 
+     NumberForm[#, {Infinity, 2}, DigitBlock -> 3, NumberSeparator -> 
+      "\[ThinSpace]"]& ], 939.9166269412042, Selectable -> False],RowBox[{
+     FormBox["\"$\"", TraditionalForm], "\[VeryThinSpace]"}],"US dollars",
+   "\"USDollars\""},
+  "QuantityPrefix"]], "Output",
+ CellChangeTimes->{{3.786869341145338*^9, 3.786869370978215*^9}},
+ CellLabel->"Out[30]=",ExpressionUUID->"24737aa3-fab8-48b0-b404-2bd6c220a854"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"in", " ", 
+    RowBox[{"Euros", ":"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"CurrencyConvert", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"UnitConvert", "[", 
+      RowBox[{
+       RowBox[{"Quantity", "[", 
+        RowBox[{"0.0193`3.", ",", "\"\<Kilograms\>\""}], "]"}], ",", 
+       "\"\<TroyOunces\>\""}], "]"}], " ", 
+     RowBox[{
+      RowBox[{"Entity", "[", 
+       RowBox[{"\"\<Element\>\"", ",", " ", "\"\<Gold\>\""}], "]"}], "[", 
+      "\"\<Price\>\"", "]"}]}], ",", " ", "\"\<Euros\>\""}], "]"}]}]], "Input",\
+
+ CellChangeTimes->{{3.786869371468149*^9, 3.786869379345196*^9}, {
+  3.786869412039055*^9, 3.786869431837982*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"9441625f-877a-4654-9642-18454ed8d5ff"],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    TagBox[
+     InterpretationBox["\"836.67\"", 836.6713989691167, AutoDelete -> True], 
+     NumberForm[#, {Infinity, 2}, DigitBlock -> 3, NumberSeparator -> 
+      "\[ThinSpace]"]& ], 836.6713989691167, Selectable -> False],RowBox[{
+     FormBox["\"\[Euro]\"", TraditionalForm], "\[VeryThinSpace]"}],"euros",
+   "\"Euros\""},
+  "QuantityPrefix"]], "Output",
+ CellChangeTimes->{3.786869433210088*^9},
+ CellLabel->"Out[31]=",ExpressionUUID->"cae2e3fe-b5c0-4f41-a60a-241c3fed23f1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"All", " ", 
+    RowBox[{"together", ":"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"CurrencyConvert", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"UnitConvert", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Quantity", "[", 
+         RowBox[{"1", ",", " ", 
+          SuperscriptBox["\"\<Centimeters\>\"", "3"]}], "]"}], 
+        RowBox[{"ElementData", "[", 
+         RowBox[{"\"\<Gold\>\"", ",", " ", "\"\<Density\>\""}], "]"}]}], ",", 
+       "\"\<TroyOunces\>\""}], "]"}], " ", 
+     RowBox[{
+      RowBox[{"Entity", "[", 
+       RowBox[{"\"\<Element\>\"", ",", " ", "\"\<Gold\>\""}], "]"}], "[", 
+      "\"\<Price\>\"", "]"}]}], ",", " ", "\"\<\[Euro]\>\""}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.786869450179878*^9, 3.786869542953876*^9}},
+ CellLabel->"In[36]:=",ExpressionUUID->"db0f6ad7-669c-4ead-9dd7-4fc98023a418"],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    TagBox[
+     InterpretationBox["\"836.67\"", 836.6713989691167, AutoDelete -> True], 
+     NumberForm[#, {Infinity, 2}, DigitBlock -> 3, NumberSeparator -> 
+      "\[ThinSpace]"]& ], 836.6713989691167, Selectable -> False],RowBox[{
+     FormBox["\"\[Euro]\"", TraditionalForm], "\[VeryThinSpace]"}],"euros",
+   "\"Euros\""},
+  "QuantityPrefix"]], "Output",
+ CellChangeTimes->{{3.786869472403882*^9, 3.786869545079953*^9}},
+ CellLabel->"Out[36]=",ExpressionUUID->"5982ba8d-3a69-44d6-8f6e-85d86118a293"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"Simpler", " ", "/", " ", "implicit"}], " ", 
+    RowBox[{"conversion", ":"}]}], " ", "*)"}], 
+  RowBox[{"CurrencyConvert", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Quantity", "[", 
+      RowBox[{"1", ",", " ", 
+       SuperscriptBox["\"\<Centimeters\>\"", "3"]}], "]"}], 
+     RowBox[{"ElementData", "[", 
+      RowBox[{"\"\<Gold\>\"", ",", " ", "\"\<Density\>\""}], "]"}], " ", 
+     RowBox[{
+      RowBox[{"Entity", "[", 
+       RowBox[{"\"\<Element\>\"", ",", " ", "\"\<Gold\>\""}], "]"}], "[", 
+      "\"\<Price\>\"", "]"}]}], ",", " ", "\"\<\[Euro]\>\""}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.786869599665846*^9, 3.7868696254519672`*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"ecbac987-626a-4d6f-88d0-e9a2a2cc3cce"],
+
+Cell[BoxData[
+ TemplateBox[{InterpretationBox[
+    TagBox[
+     InterpretationBox["\"836.67\"", 836.6713989691167, AutoDelete -> True], 
+     NumberForm[#, {Infinity, 2}, DigitBlock -> 3, NumberSeparator -> 
+      "\[ThinSpace]"]& ], 836.6713989691167, Selectable -> False],RowBox[{
+     FormBox["\"\[Euro]\"", TraditionalForm], "\[VeryThinSpace]"}],"euros",
+   "\"Euros\""},
+  "QuantityPrefix"]], "Output",
+ CellChangeTimes->{{3.7868696126426992`*^9, 3.78686962876411*^9}, 
+   3.78687146787952*^9},
+ CellLabel->"Out[39]=",ExpressionUUID->"fdd39029-b946-4600-9f21-6320ac46e147"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"microCuries", " ", 
+    RowBox[{"example", ":"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"Quantity", "[", 
+   RowBox[{"26.6", ",", " ", "\"\<\[Mu]Ci\>\""}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.786860472433896*^9, 3.786860563061956*^9}, {
+  3.7868606140525618`*^9, 3.786860615023491*^9}, {3.786868934400445*^9, 
+  3.786868938122311*^9}, {3.7868690513003597`*^9, 3.786869065642828*^9}},
+ CellLabel->"In[23]:=",ExpressionUUID->"e0b6af04-c0ee-4571-b024-da64db0fda06"],
+
+Cell[BoxData[
+ TemplateBox[{"26.6`","\"\[Micro]Ci\"","microcuries","\"Microcuries\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.786860494026885*^9, 3.78686056384284*^9}, {
+   3.786860610178257*^9, 3.7868606161909847`*^9}, {3.786868929293927*^9, 
+   3.786868942286882*^9}, {3.786869007748447*^9, 3.786869021240368*^9}, 
+   3.786869066109099*^9, 3.786869146068294*^9},
+ CellLabel->"Out[23]=",ExpressionUUID->"18300b6e-5ef9-4d69-ab16-8b781648adc5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"UnitConvert", "[", 
+  RowBox[{
+   RowBox[{"Quantity", "[", 
+    RowBox[{"26.6`", ",", "\"\<Microcuries\>\""}], "]"}], ",", "\"\<SI\>\""}],
+   "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[24]:=",ExpressionUUID->"c4f94675-4b80-42ce-b5e0-7ef3a5e6cd71"],
+
+Cell[BoxData[
+ TemplateBox[{"984.2`","\"kBq\"","kilobecquerels","\"Kilobecquerels\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{
+  3.786868948453588*^9, {3.786869007962585*^9, 3.786869022618781*^9}, 
+   3.786869075092245*^9, 3.786869146897903*^9},
+ CellLabel->"Out[24]=",ExpressionUUID->"c5dad5f3-f8ff-4755-8bbd-e2a5d80ba562"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"UnitSimplify", "[", 
+  RowBox[{"Quantity", "[", 
+   RowBox[{"984.2`", ",", "\"\<Kilobecquerels\>\""}], "]"}], "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[25]:=",ExpressionUUID->"3652c921-7234-4093-aa52-15cbd03bd79f"],
+
+Cell[BoxData[
+ TemplateBox[{"984200.`","\"Hz\"","hertz","\"Hertz\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{
+  3.786868956668974*^9, {3.7868690099553223`*^9, 3.786869023385254*^9}, 
+   3.78686907681563*^9, 3.786869147591609*^9},
+ CellLabel->"Out[25]=",ExpressionUUID->"449dd1bd-3361-4f92-8485-8c30313ff000"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"UnitConvert", "[", 
+  RowBox[{"Quantity", "[", 
+   RowBox[{"984200.`", ",", "\"\<Hertz\>\""}], "]"}], "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[26]:=",ExpressionUUID->"6cf2c5dd-b251-4189-b052-2bc5bb7d553c"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "984200.`",RowBox[{"\"per \"", "\[InvisibleSpace]", "\"second\""}],
+   "reciprocal seconds",FractionBox["1", "\"Seconds\""]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{
+  3.786868963301147*^9, {3.786869010919023*^9, 3.786869024103491*^9}, 
+   3.7868690782700357`*^9, 3.786869148293664*^9},
+ CellLabel->"Out[26]=",ExpressionUUID->"41d0a5cb-cad0-4437-99c3-db05d0a3ede7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Entity", "[", 
+   RowBox[{"\"\<Element\>\"", ",", " ", "\"\<Gold\>\""}], "]"}], "[", 
+  "\"\<Price\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.786869175781592*^9, 3.786869179091642*^9}, {
+  3.786869276210638*^9, 3.7868693031979427`*^9}},
+ CellLabel->"In[28]:=",ExpressionUUID->"de9d3274-554e-47fb-bcda-dc26c3b237a8"],
+
+Cell[BoxData[
+ TemplateBox[{"1514.75`",RowBox[{
+     FormBox["\"$\"", TraditionalForm], "\[VeryThinSpace]"}],
+   RowBox[{"\"per \"", "\[InvisibleSpace]", "\"troy ounce\""}],
+   "US dollars per troy ounce",FractionBox["\"USDollars\"", "\"TroyOunces\""]},
+  "QuantityPrefixUnit"]], "Output",
+ CellChangeTimes->{{3.7868692921207247`*^9, 3.786869305235147*^9}},
+ CellLabel->"Out[28]=",ExpressionUUID->"efb435a1-41d5-40b7-b984-3f5448ed5421"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Nicolas", " ", "age", " ", "at", " ", "the", " ", "next", " ", 
+    "palindromic", " ", 
+    RowBox[{"year", ":"}]}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"2112", "-", "2020", "+", "9"}]}]], "Input",
+ CellChangeTimes->{{3.7868714716433*^9, 3.786871493246174*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"ac3ceb96-d82c-43f3-a20e-f20b43d24021"],
+
+Cell[BoxData["101"], "Output",
+ CellChangeTimes->{3.786871493656155*^9},
+ CellLabel->"Out[40]=",ExpressionUUID->"bda3722e-4a95-4546-b8ef-799bbbc54cb8"]
+}, Open  ]]
+},
+WindowSize->{808, 725},
+WindowMargins->{{291, Automatic}, {Automatic, 41}},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default2.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 928, 20, 62, "Input",ExpressionUUID->"9a0e0b32-1597-4e1d-a609-8576fc890d5e"],
+Cell[1511, 44, 442, 7, 42, "Output",ExpressionUUID->"e4a7ba17-8570-48b7-9f7b-f79cb6c87e60"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1990, 56, 359, 8, 34, "Input",ExpressionUUID->"bfa720cb-7bc1-4e32-aa2f-35f4d8a6ac0d"],
+Cell[2352, 66, 390, 7, 39, "Output",ExpressionUUID->"caae8296-615f-46a2-bf31-e64024b985e1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2779, 78, 606, 15, 83, "Input",ExpressionUUID->"86598e28-0ff5-4b95-892e-090fc31897b7"],
+Cell[3388, 95, 555, 10, 40, "Output",ExpressionUUID->"24737aa3-fab8-48b0-b404-2bd6c220a854"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3980, 110, 786, 20, 83, "Input",ExpressionUUID->"9441625f-877a-4654-9642-18454ed8d5ff"],
+Cell[4769, 132, 528, 10, 39, "Output",ExpressionUUID->"cae2e3fe-b5c0-4f41-a60a-241c3fed23f1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5334, 147, 905, 23, 116, "Input",ExpressionUUID->"db0f6ad7-669c-4ead-9dd7-4fc98023a418"],
+Cell[6242, 172, 552, 10, 39, "Output",ExpressionUUID->"5982ba8d-3a69-44d6-8f6e-85d86118a293"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6831, 187, 806, 20, 89, "Input",ExpressionUUID->"ecbac987-626a-4d6f-88d0-e9a2a2cc3cce"],
+Cell[7640, 209, 578, 11, 39, "Output",ExpressionUUID->"fdd39029-b946-4600-9f21-6320ac46e147"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8255, 225, 536, 10, 59, "Input",ExpressionUUID->"e0b6af04-c0ee-4571-b024-da64db0fda06"],
+Cell[8794, 237, 452, 7, 41, "Output",ExpressionUUID->"18300b6e-5ef9-4d69-ab16-8b781648adc5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9283, 249, 282, 7, 34, "Input",ExpressionUUID->"c4f94675-4b80-42ce-b5e0-7ef3a5e6cd71"],
+Cell[9568, 258, 330, 6, 42, "Output",ExpressionUUID->"c5dad5f3-f8ff-4755-8bbd-e2a5d80ba562"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9935, 269, 250, 5, 34, "Input",ExpressionUUID->"3652c921-7234-4093-aa52-15cbd03bd79f"],
+Cell[10188, 276, 314, 6, 39, "Output",ExpressionUUID->"449dd1bd-3361-4f92-8485-8c30313ff000"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10539, 287, 242, 5, 34, "Input",ExpressionUUID->"6cf2c5dd-b251-4189-b052-2bc5bb7d553c"],
+Cell[10784, 294, 402, 8, 42, "Output",ExpressionUUID->"41d0a5cb-cad0-4437-99c3-db05d0a3ede7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11223, 307, 352, 7, 34, "Input",ExpressionUUID->"de9d3274-554e-47fb-bcda-dc26c3b237a8"],
+Cell[11578, 316, 436, 7, 42, "Output",ExpressionUUID->"efb435a1-41d5-40b7-b984-3f5448ed5421"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12051, 328, 414, 9, 59, "Input",ExpressionUUID->"ac3ceb96-d82c-43f3-a20e-f20b43d24021"],
+Cell[12468, 339, 151, 2, 39, "Output",ExpressionUUID->"bda3722e-4a95-4546-b8ef-799bbbc54cb8"]
+}, Open  ]]
+}
+]
+*)
+
