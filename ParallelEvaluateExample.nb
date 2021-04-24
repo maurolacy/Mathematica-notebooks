@@ -1,0 +1,114 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3329,        106]
+NotebookOptionsPosition[      2692,         86]
+NotebookOutlinePosition[      3027,        101]
+CellTagsIndexPosition[      2984,         98]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{"From", " ", "ParallelEvaluate", " ", "examples"}], " ", 
+  "*)"}]], "Input",
+ CellChangeTimes->{{3.8240997409297867`*^9, 
+  3.824099757784185*^9}},ExpressionUUID->"1d8e4dd8-437e-4134-864d-\
+89373d43a652"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"n", "=", "1"}], ";", 
+  RowBox[{"primes", "=", 
+   RowBox[{"{", "}"}]}], ";", " ", 
+  RowBox[{"SetSharedVariable", "[", 
+   RowBox[{"n", ",", "primes"}], "]"}], ";"}]], "Input",
+ CellLabel->"In[12]:=",
+ CellID->378138222,ExpressionUUID->"bcf11ffa-38e4-4081-9d04-dd1d64cdc242"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"PrintTemporary", "[", 
+   RowBox[{"Dynamic", "[", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", "primes"}], "}"}], "]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"CheckAbort", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"ParallelEvaluate", "[", 
+    RowBox[{"While", "[", 
+     RowBox[{"True", ",", "\[IndentingNewLine]", 
+      RowBox[{"With", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"n", "=", 
+          RowBox[{"n", "++"}]}], "}"}], ",", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{"PrimeQ", "[", 
+           RowBox[{
+            RowBox[{"n", "!"}], "+", "1"}], "]"}], ",", 
+          RowBox[{"AppendTo", "[", 
+           RowBox[{"primes", ",", "n"}], "]"}]}], "]"}]}], "]"}]}], "]"}], 
+    "]"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{"n", ",", "primes"}], "}"}]}], "]"}]}], "Input",
+ CellLabel->"In[13]:=",
+ CellID->186638577,
+ $CellContext`GeneratedCellStyles -> {
+  "PrintTemporary" -> {
+    "PrintTemporary", CellContext -> 
+     CellGroup}},ExpressionUUID->"eecbb66f-91ee-4fc1-b567-01fa0581b492"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"591", ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "1", ",", "2", ",", "3", ",", "11", ",", "27", ",", "37", ",", "41", ",", 
+     "73", ",", "77", ",", "116", ",", "154", ",", "320", ",", "340", ",", 
+     "399", ",", "427"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.824099702031514*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"bb7938a0-6935-4ce9-b06d-f3c5dec64eae"]
+}, Open  ]]
+},
+WindowSize->{886, 582},
+WindowMargins->{{Automatic, 228}, {21, Automatic}},
+FrontEndVersion->"12.0 for Linux x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 250, 6, 31, "Input",ExpressionUUID->"1d8e4dd8-437e-4134-864d-89373d43a652"],
+Cell[811, 28, 311, 8, 31, "Input",ExpressionUUID->"bcf11ffa-38e4-4081-9d04-dd1d64cdc242",
+ CellID->378138222],
+Cell[CellGroupData[{
+Cell[1147, 40, 1116, 32, 124, "Input",ExpressionUUID->"eecbb66f-91ee-4fc1-b567-01fa0581b492",
+ CellID->186638577],
+Cell[2266, 74, 410, 9, 35, "Output",ExpressionUUID->"bb7938a0-6935-4ce9-b06d-f3c5dec64eae"]
+}, Open  ]]
+}
+]
+*)
+
