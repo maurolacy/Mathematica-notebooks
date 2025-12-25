@@ -9,10 +9,10 @@ A collection of various Mathematica notebooks covering mathematical problems, al
 - [Circle-circle intersection points](./CircleCircleIntersection.nb) - Algorithm for finding intersection points between two circles.
 - [Covid-19 estimation for Spain](./Coronavirus.nb) - An early (and surprisingly accurate) crude estimation of the number of deaths due to Covid-19 in Spain.
 - [Functional equations](./FunctionalEquations.nb) - Solving functional equations, including the Quora problem: "If f(x) + 2f(1/x) + 3f(x/(x-1)) == x, what is f(x)?"
-- [Volume of the hypersphere](./HypersphereVolume.nb) - Evolution of the volume of n-dimensional hyperspheres.
+- [Volume of the hypersphere](./HypersphereVolume.nb) - Evolution of the volume of the n-dimensional hypersphere.
 - [Mordell's integral](./Mordell.nb) - Computation and analysis of Mordell's integral.
 - [Nearest point to a polygon](./nearestPointToPolygon.nb) - Geofence algorithm for finding the nearest point to a polygon.
-- [Period digits](./PeriodDigits.nb) - Analysis of the number of decimal digits in the period of 1/n.
+- [Period digits](./PeriodDigits.nb) - Analysis of the number of decimal digits of 1/n.
 
 ## Additional Notebooks
 
