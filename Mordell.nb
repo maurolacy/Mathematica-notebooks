@@ -1,0 +1,213 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7425,        205]
+NotebookOptionsPosition[      6950,        188]
+NotebookOutlinePosition[      7344,        204]
+CellTagsIndexPosition[      7301,        201]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"sol", "=", 
+  RowBox[{
+   SubsuperscriptBox["\[Integral]", 
+    RowBox[{"-", "\[Infinity]"}], "\[Infinity]"], 
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      RowBox[{"Tanh", "[", 
+       FractionBox[
+        RowBox[{"\[Pi]", " ", "x"}], "3"], "]"}], "+", 
+      RowBox[{"Tanh", "[", 
+       RowBox[{"3", "\[Pi]", " ", "x"}], "]"}]}], 
+     RowBox[{
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{"2", "\[Pi]", " ", "x"}]], "-", "1"}]], 
+    FractionBox[
+     RowBox[{"Cosh", "[", 
+      FractionBox[
+       RowBox[{"\[Pi]", " ", "x"}], "2"], "]"}], 
+     RowBox[{"Cosh", "[", 
+      RowBox[{"2", "\[Pi]", " ", "x"}], "]"}]], 
+    RowBox[{"\[DifferentialD]", "x"}]}]}]}]], "Input",
+ CellChangeTimes->{{3.915800756292719*^9, 3.9158008418048353`*^9}, {
+  3.9159741672354383`*^9, 
+  3.915974167717307*^9}},ExpressionUUID->"1561d570-2f7f-4de4-83ac-\
+58520de2f2d3"],
+
+Cell[BoxData[
+ TemplateBox[<|"shortenedBoxes" -> TagBox[
+     RowBox[{
+       RowBox[{
+         FractionBox["1", "2"], " ", 
+         SqrtBox[
+          RowBox[{
+            FractionBox["1", "6"], " ", 
+            RowBox[{"(", 
+              RowBox[{"22", "-", 
+                RowBox[{"3", " ", 
+                  SqrtBox["2"]}], "-", 
+                RowBox[{"8", " ", 
+                  SqrtBox[
+                   RowBox[{"6", "-", 
+                    RowBox[{"3", " ", 
+                    SqrtBox["2"]}]}]]}]}], ")"}]}]]}], "-", 
+       FractionBox[
+        RowBox[{
+          SuperscriptBox[
+           RowBox[{"(", 
+             RowBox[{"-", "1"}], ")"}], 
+           RowBox[{"3", "/", "8"}]], " ", 
+          RowBox[{"(", 
+            RowBox[{
+              RowBox[{
+                RowBox[{"(", 
+                  RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", "18"}], "+", 
+                    RowBox[{"90", " ", "\[ImaginaryI]"}]}], ")"}], "+", 
+                    TemplateBox[{"12"}, "OutputSizeLimit`Skeleton"], "+", 
+                    RowBox[{"96", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"-", "1"}], ")"}], 
+                    RowBox[{"23", "/", "24"}]], " ", 
+                    SqrtBox["3"]}], "-", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"135", "+", 
+                    RowBox[{"3", " ", "\[ImaginaryI]"}]}], ")"}], " ", 
+                    SqrtBox["6"]}]}], ")"}], " ", "\[Pi]"}], "+", 
+              RowBox[{
+                RowBox[{"(", 
+                  RowBox[{
+                    FractionBox["3", "2"], "+", 
+                    FractionBox[
+                    RowBox[{"3", " ", "\[ImaginaryI]"}], "2"]}], ")"}], " ", 
+                RowBox[{"(", 
+                  TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], ")"}]}]}], 
+            ")"}]}], 
+        RowBox[{"72", " ", "\[Pi]"}]], "+", 
+       FractionBox[
+        RowBox[{
+          RowBox[{
+            RowBox[{"-", "2"}], " ", 
+            RowBox[{"(", 
+              RowBox[{"108", "+", 
+                RowBox[{"288", " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"-", "1"}], ")"}], 
+                   RowBox[{"1", "/", "24"}]]}], "-", 
+                RowBox[{
+                  RowBox[{"(", 
+                    RowBox[{"285", "-", 
+                    RowBox[{"4095", " ", "\[ImaginaryI]"}]}], ")"}], " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"-", "1"}], ")"}], 
+                   RowBox[{"7", "/", "24"}]]}], "-", 
+                RowBox[{"396", " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"-", "1"}], ")"}], 
+                   RowBox[{"3", "/", "8"}]]}], "+", 
+                RowBox[{
+                  RowBox[{"(", 
+                    RowBox[{"9", "-", 
+                    RowBox[{"4383", " ", "\[ImaginaryI]"}]}], ")"}], " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"-", "1"}], ")"}], 
+                   RowBox[{"11", "/", "24"}]]}], "+", 
+                RowBox[{
+                  RowBox[{"(", 
+                    RowBox[{"3840", "-", 
+                    RowBox[{"3456", " ", "\[ImaginaryI]"}]}], ")"}], " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"-", "1"}], ")"}], 
+                   RowBox[{"5", "/", "8"}]]}], "+", 
+                TemplateBox[{"25"}, "OutputSizeLimit`Skeleton"], "+", 
+                RowBox[{
+                  RowBox[{"(", 
+                    RowBox[{"64", "+", 
+                    RowBox[{"512", " ", "\[ImaginaryI]"}]}], ")"}], " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"-", "1"}], ")"}], 
+                   RowBox[{"17", "/", "24"}]], " ", 
+                  SqrtBox["6"]}], "-", 
+                RowBox[{"9", " ", 
+                  SqrtBox[
+                   RowBox[{"6", "-", 
+                    RowBox[{"3", " ", 
+                    SqrtBox["2"]}]}]]}], "-", 
+                RowBox[{"27", " ", "\[ImaginaryI]", " ", 
+                  SqrtBox[
+                   RowBox[{"2", "-", 
+                    SqrtBox["2"]}]]}], "-", 
+                RowBox[{"27", " ", "\[ImaginaryI]", " ", 
+                  SqrtBox[
+                   RowBox[{"2", "+", 
+                    SqrtBox["2"]}]]}], "-", 
+                RowBox[{"9", " ", 
+                  SqrtBox[
+                   RowBox[{"3", " ", 
+                    RowBox[{"(", 
+                    RowBox[{"2", "+", 
+                    SqrtBox["2"]}], ")"}]}]]}]}], ")"}], " ", "\[Pi]"}], "+", 
+          
+          TemplateBox[{"481"}, "OutputSizeLimit`Skeleton"]}], 
+        RowBox[{"144", " ", 
+          RowBox[{"(", 
+            RowBox[{
+              RowBox[{"3", " ", "\[ImaginaryI]"}], "+", 
+              SqrtBox["3"]}], ")"}], " ", "\[Pi]"}]]}], Short[#, 8]& ], 
+   "line" -> 1, "sessionID" -> 19394749265990832512, "byteCount" -> 289320, 
+   "size" -> 8, "stored" -> False, "expr" -> Missing["NotStored"], "wrap" -> 
+   OutputSizeLimit`Defer, "version" -> 1|>,
+  "OutputSizeLimitTemplate"]], "Output",
+ CellChangeTimes->{3.915875158315785*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"361da6f0-6e6c-4c85-a1bc-d2223a9f6e8a"]
+}, Open  ]]
+},
+WindowSize->{808, 747},
+WindowMargins->{{Automatic, 0}, {1, Automatic}},
+FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"ba6ffb84-2952-4c51-bbf0-ce20fc88ff13"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 894, 26, 59, "Input",ExpressionUUID->"1561d570-2f7f-4de4-83ac-58520de2f2d3"],
+Cell[1477, 50, 5457, 135, 179, "Output",ExpressionUUID->"361da6f0-6e6c-4c85-a1bc-d2223a9f6e8a"]
+}, Open  ]]
+}
+]
+*)
+

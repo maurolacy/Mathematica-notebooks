@@ -1,0 +1,96 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2436,         86]
+NotebookOptionsPosition[      1963,         69]
+NotebookOutlinePosition[      2358,         85]
+CellTagsIndexPosition[      2315,         82]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Laplacian", "[", 
+   RowBox[{
+    RowBox[{"f", "[", 
+     RowBox[{"r", ",", " ", "\[Theta]"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"r", ",", "\[Theta]"}], "}"}], ",", "\"\<Polar\>\""}], "]"}], "//",
+   "Expand"}]], "Input",
+ CellChangeTimes->{{3.952302125622439*^9, 3.952302184135097*^9}, {
+  3.952302222941711*^9, 3.9523022245956297`*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"f0548244-abb4-46b7-8c85-fffc89e36b02"],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["f", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"0", ",", "2"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{"r", ",", "\[Theta]"}], "]"}], 
+   SuperscriptBox["r", "2"]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["f", 
+     TagBox[
+      RowBox[{"(", 
+       RowBox[{"1", ",", "0"}], ")"}],
+      Derivative],
+     MultilineFunction->None], "[", 
+    RowBox[{"r", ",", "\[Theta]"}], "]"}], "r"], "+", 
+  RowBox[{
+   SuperscriptBox["f", 
+    TagBox[
+     RowBox[{"(", 
+      RowBox[{"2", ",", "0"}], ")"}],
+     Derivative],
+    MultilineFunction->None], "[", 
+   RowBox[{"r", ",", "\[Theta]"}], "]"}]}]], "Output",
+ CellChangeTimes->{{3.9523021528787413`*^9, 3.952302184591888*^9}, 
+   3.952302225079687*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"b12022df-8742-4f00-bf59-2ebace921d62"]
+}, Open  ]]
+},
+WindowSize->{1512, 847},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"6e939ea2-3b71-433f-84ea-260b913a1369"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 461, 11, 30, "Input",ExpressionUUID->"f0548244-abb4-46b7-8c85-fffc89e36b02"],
+Cell[1044, 35, 903, 31, 77, "Output",ExpressionUUID->"b12022df-8742-4f00-bf59-2ebace921d62"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
