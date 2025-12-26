@@ -1,0 +1,141 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3917,        132]
+NotebookOptionsPosition[      3535,        114]
+NotebookOutlinePosition[      3869,        129]
+CellTagsIndexPosition[      3826,        126]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"eq", " ", "=", " ", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"x", "^", "2"}], "-", "1"}], " ", "\[Equal]", " ", 
+     RowBox[{
+      RowBox[{"2", 
+       RowBox[{"(", 
+        RowBox[{"x", "+", "z"}], ")"}]}], "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"y", "^", "2"}], "-", "1"}], ")"}], "/", 
+       RowBox[{"(", 
+        RowBox[{"2", "z"}], ")"}]}]}]}], ",", " ", 
+    RowBox[{"x", "\[GreaterEqual]", " ", "1"}], ",", 
+    RowBox[{"y", "\[GreaterEqual]", "1"}], ",", " ", 
+    RowBox[{"z", "\[GreaterEqual]", "1"}]}], "}"}]}], "\[IndentingNewLine]", 
+ RowBox[{"Solve", "[", 
+  RowBox[{"eq", ",", "x", ",", " ", "Integers"}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"FindInstance", "[", 
+  RowBox[{"eq", ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", " ", "y", ",", " ", "z"}], "}"}], ",", " ", 
+   "Integers"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.665256141620558*^9, 3.665256254456772*^9}, {
+  3.66525631158108*^9, 3.665256332743394*^9}, {3.665263605272338*^9, 
+  3.66526371008777*^9}, {3.665263783070731*^9, 3.665263799071294*^9}, {
+  3.665263834646674*^9, 3.665263921868927*^9}, {3.665263964484927*^9, 
+  3.6652639954759827`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "1"}], "+", 
+     SuperscriptBox["x", "2"]}], "\[Equal]", 
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["y", "2"]}], 
+      RowBox[{"2", " ", "z"}]], "+", 
+     RowBox[{"2", " ", 
+      RowBox[{"(", 
+       RowBox[{"x", "+", "z"}], ")"}]}]}]}], ",", 
+   RowBox[{"x", "\[GreaterEqual]", "1"}], ",", 
+   RowBox[{"y", "\[GreaterEqual]", "1"}], ",", 
+   RowBox[{"z", "\[GreaterEqual]", "1"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.665263974267129*^9, 3.665263995790657*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"x", "\[Rule]", 
+    RowBox[{"ConditionalExpression", "[", 
+     RowBox[{
+      RowBox[{"1", "+", 
+       FractionBox[
+        SqrtBox[
+         FractionBox[
+          RowBox[{
+           RowBox[{"-", "1"}], "+", 
+           SuperscriptBox["y", "2"], "+", 
+           RowBox[{"4", " ", "z"}], "+", 
+           RowBox[{"4", " ", 
+            SuperscriptBox["z", "2"]}]}], "z"]], 
+        SqrtBox["2"]]}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"y", "|", "z", "|", "x"}], ")"}], "\[Element]", "Integers"}],
+        "&&", 
+       RowBox[{"z", "\[GreaterEqual]", "1"}], "&&", 
+       RowBox[{"y", "\[GreaterEqual]", "1"}]}]}], "]"}]}], "}"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.665263974267129*^9, 3.665263995853908*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"x", "\[Rule]", "3"}], ",", 
+    RowBox[{"y", "\[Rule]", "1"}], ",", 
+    RowBox[{"z", "\[Rule]", "1"}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{{3.665263974267129*^9, 3.665263995862612*^9}}]
+}, Open  ]]
+},
+WindowSize->{808, 753},
+WindowMargins->{{Automatic, 206}, {0, Automatic}},
+FrontEndVersion->"10.0 for Linux x86 (64-bit) (June 27, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1233, 32, 77, "Input"],
+Cell[1816, 56, 613, 19, 52, "Output"],
+Cell[2432, 77, 818, 25, 120, "Output"],
+Cell[3253, 104, 266, 7, 89, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

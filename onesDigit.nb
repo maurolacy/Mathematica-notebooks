@@ -1,0 +1,105 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3149,         95]
+NotebookOptionsPosition[      2727,         75]
+NotebookOutlinePosition[      3062,         90]
+CellTagsIndexPosition[      3019,         87]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ SuperscriptBox[
+  RowBox[{"(", 
+   RowBox[{
+    SqrtBox["2"], "+", 
+    SqrtBox["3"]}], ")"}], "2014"]], "Input",
+ CellChangeTimes->{{3.6690166876138906`*^9, 3.669016709346669*^9}, {
+  3.669016832976493*^9, 3.669016834175551*^9}}],
+
+Cell[BoxData[
+ SuperscriptBox[
+  RowBox[{"(", 
+   RowBox[{
+    SqrtBox["2"], "+", 
+    SqrtBox["3"]}], ")"}], "2014"]], "Output",
+ CellChangeTimes->{{3.669016687630259*^9, 3.669016709976162*^9}, 
+   3.669016834913776*^9, 3.669016894443379*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{
+   RowBox[{"FractionalPart", "[", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       SqrtBox["2"], "+", 
+       SqrtBox["3"]}], ")"}], "2014"], "]"}], ",", " ", "1100"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.669016851201023*^9, 3.669016877999958*^9}},
+ NumberMarks->False],
+
+Cell[BoxData["0.\
+999999999999999999999999999999999999999999999999999999999999999999999999999999\
+999999999999999999999999999999999999999999999999999999999999999999999999999999\
+999999999999999999999999999999999999999999999999999999999999999999999999999999\
+999999999999999999999999999999999999999999999999999999999999999999999999999999\
+999999999999999999999999999999999999999999999999999999999999999999999999999999\
+999999999999999999999999999999999999999999999999999999999999999999999999999999\
+999999999999999999999999999999999999999999999999999999999999999999999999999999\
+999999999999999999999999999999999999999999999999999999999999999999999999999999\
+999999999999999999999999999999999999999999999999999999999999999999999999999999\
+999999999999999999999999999999999999999999999999999999999999999999999999999999\
+999999999999999999999999999999999999999999999999999999999999999999999999999999\
+999999999999999999999999999999999999999999999999999999999999999999999999999999\
+999999999999999999999999999999999999999999999999999999999999999999724296169706\
+313809480058209581665764472569869447192398189578613361045256201760473879218264\
+08986587772064360174164695449816623707433038`1100."], "Output",
+ CellChangeTimes->{{3.669016840599422*^9, 3.669016895353183*^9}}]
+}, Open  ]]
+},
+WindowSize->{808, 753},
+WindowMargins->{{315, Automatic}, {Automatic, 21}},
+FrontEndVersion->"10.0 for Linux x86 (64-bit) (June 27, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 245, 7, 44, InheritFromParent],
+Cell[828, 31, 243, 7, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1108, 43, 333, 11, 44, "Input"],
+Cell[1444, 56, 1267, 16, 363, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

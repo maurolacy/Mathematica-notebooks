@@ -1,0 +1,119 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.4' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3477,        111]
+NotebookOptionsPosition[      3043,         90]
+NotebookOutlinePosition[      3399,        106]
+CellTagsIndexPosition[      3356,        103]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"Thinking", " ", 
+    RowBox[{"depth", ":", " ", 
+     RowBox[{
+     "A", " ", "group", " ", "of", " ", "people", " ", "choses", " ", 
+      "numbers", " ", "from", " ", "0", " ", "to", " ", "100.", " ", "The", 
+      " ", "winner", " ", "is", " ", "the", " ", "one", " ", "that", " ", 
+      "chooses", " ", "the", " ", "number", " ", "closest", " ", "to", " ", 
+      FractionBox["2", "3"], " ", "of", " ", "the", " ", "mean", " ", "of", 
+      " ", "the", " ", 
+      RowBox[{"numbers", "."}]}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"\[Alpha]", "\[Rule]", " ", 
+     RowBox[{"Floor", "[", 
+      RowBox[{"50", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"2", "/", "3"}], ")"}], 
+        RowBox[{"1", "+", "\[Alpha]"}]]}], "]"}]}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"\[Alpha]", ",", " ", "0", ",", " ", "10"}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.727347626122044*^9, 3.727347693171411*^9}, {
+  3.727348177229446*^9, 3.727348280057761*^9}, {3.727348615712613*^9, 
+  3.727348616844084*^9}, {3.727348659069004*^9, 3.727348793871554*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"0", "\[Rule]", "33"}], ",", 
+   RowBox[{"1", "\[Rule]", "22"}], ",", 
+   RowBox[{"2", "\[Rule]", "14"}], ",", 
+   RowBox[{"3", "\[Rule]", "9"}], ",", 
+   RowBox[{"4", "\[Rule]", "6"}], ",", 
+   RowBox[{"5", "\[Rule]", "4"}], ",", 
+   RowBox[{"6", "\[Rule]", "2"}], ",", 
+   RowBox[{"7", "\[Rule]", "1"}], ",", 
+   RowBox[{"8", "\[Rule]", "1"}], ",", 
+   RowBox[{"9", "\[Rule]", "0"}], ",", 
+   RowBox[{"10", "\[Rule]", "0"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.727347628797324*^9, 3.7273476874450808`*^9}, {
+   3.727348191829657*^9, 3.727348209232779*^9}, {3.727348246463962*^9, 
+   3.727348280684754*^9}, 3.727348617165353*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"\[Alpha]", "\[Rule]", " ", 
+   RowBox[{"Floor", "[", 
+    RowBox[{"50", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"2", "/", "3"}], ")"}], 
+      RowBox[{"1", "+", "\[Alpha]"}]]}], "]"}]}], "/.", 
+  RowBox[{"\[Alpha]", "\[Rule]", " ", "1.7"}]}]], "Input",
+ CellChangeTimes->{{3.727348483601596*^9, 3.727348549633862*^9}}],
+
+Cell[BoxData[
+ RowBox[{"1.7`", "\[Rule]", "16"}]], "Output",
+ CellChangeTimes->{{3.727348496253461*^9, 3.7273485499623203`*^9}, 
+   3.7273486223477077`*^9}]
+}, Open  ]]
+},
+WindowSize->{808, 587},
+WindowMargins->{{140, Automatic}, {39, Automatic}},
+FrontEndVersion->"10.4 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 11, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1191, 27, 95, "Input"],
+Cell[1774, 51, 687, 16, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2498, 72, 370, 10, 35, "Input"],
+Cell[2871, 84, 156, 3, 28, "Output"]
+}, Open  ]]
+}
+]
+*)
+
