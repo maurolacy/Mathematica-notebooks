@@ -24,6 +24,7 @@ A collection of various Mathematica notebooks covering mathematical problems, al
 - [Magic squares](./MagicSquare.nb).
 - [Integer equation solving](./eq_Integers.nb) - Solving Diophantine-style integer equations with constraints.
 - [Ones digit calculation](./onesDigit.nb) - Computing the ones digit of (√2 + √3)²⁰¹⁴ with high precision.
+- [Perfect square test](./a^b+b^a=i^2.nb) - Efficient perfect square detection using Jacobi symbols and modular arithmetic. *(Not original work - references StackExchange)*.
 - [Palindromic number counting](./Palindromic.nb) - Counting palindromic numbers less than 10ⁿ.
 - [Pi approximations](./piApproximations.nb) - Various methods for approximating π, including "Pi instant" calculation.
 - [Prime probabilities](./primeProbabilities.nb) - Probability analysis of permutations of consecutive numbers being prime.
