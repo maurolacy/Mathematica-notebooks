@@ -4,36 +4,35 @@ A collection of various Mathematica notebooks covering mathematical problems, al
 
 ## Highlights
 
-- [Archimedes' method of estimating π](./Archimedes.nb) - Implementation of Archimedes' geometric approach to approximating π.
-- [Borwein integral formulas](./Borwein_integral.nb) - Exploration of the curious Borwein integral formulas.
-- [Circle-circle intersection points](./CircleCircleIntersection.nb) - Algorithm for finding intersection points between two circles.
-- [Covid-19 estimation for Spain](./Coronavirus.nb) - An early (and surprisingly accurate) crude estimation of the number of deaths due to Covid-19 in Spain.
+### Mathematical Problem Solving
+
 - [Euler's sum of powers conjecture](./EulerSumofPowersConjecture.nb) - Finding counterexamples to Euler's conjecture (a⁴ + b⁴ + c⁴ = d⁴).
 - [Functional equations](./FunctionalEquations.nb) - Solving functional equations, including the Quora problem: "If f(x) + 2f(1/x) + 3f(x/(x-1)) == x, what is f(x)?"
-- [Volume of the hypersphere](./HypersphereVolume.nb) - Evolution of the volume of the n-dimensional hypersphere.
 - [Mordell's integral](./Mordell.nb) - Computation and analysis of Mordell's integral.
-- [Nearest point to a polygon](./nearestPointToPolygon.nb) - Geofence algorithm for finding the nearest point to a polygon.
-- [Period digits](./PeriodDigits.nb) - Analysis of the number of decimal digits of 1/n.
+- [Period digits](./PeriodDigits.nb) - Analysis of the number of decimal digits in the period of 1/n.
+
+### Applied Mathematics / Modeling
+
+- [Covid-19 estimation for Spain](./Coronavirus.nb) - An early (and surprisingly accurate) crude estimation of the number of deaths due to Covid-19 in Spain.
+
+### Game Theory / Probability
+
 - [Thinking depth game theory](./Thinking_depth.nb) - "2/3 of the mean" game theory problem with iterated reasoning.
 
-## Additional Notebooks
+### Computational Mathematics
 
-- [Area of an ellipse](./AreaofEllipse.nb).
-- [21-digit prime in e](./21-digit_Prime.nb) - Finding the first 21-digit prime in the digits of e.
-- [Fibonacci sequences](./Fibonacci.nb).
-- [Magic squares](./MagicSquare.nb).
-- [Integer equation solving](./eq_Integers.nb) - Solving Diophantine-style integer equations with constraints.
-- [Ones digit calculation](./onesDigit.nb) - Computing the ones digit of (√2 + √3)²⁰¹⁴ with high precision.
-- [Perfect square test](./a^b+b^a=i^2.nb) - Efficient perfect square detection using Jacobi symbols and modular arithmetic. *(Not original work - references StackExchange)*.
-- [Palindromic number counting](./Palindromic.nb) - Counting palindromic numbers less than 10ⁿ.
-- [Pi approximations](./piApproximations.nb) - Various methods for approximating π, including "Pi instant" calculation.
-- [Prime probabilities](./primeProbabilities.nb) - Probability analysis of permutations of consecutive numbers being prime.
-- [Prime number explorations](./Primes.nb).
-- [Qubits analysis](./Qubits.nb) - Fitting exponential model to historical qubit data (1998-2018).
-- [Shor's algorithm qubit requirements](./Shor_qubits.nb) - Analysis of qubits needed for Shor's algorithm to factor numbers.
-- [Square folding visualization](./SquareFolding.nb) (includes animated GIF).
-- [Pi digits analysis](./PiDigits.nb).
-- [Pi series](./PiSeries.nb).
-- [Harmonic oscillator](./HarmonicOscillator.nb).
-- [Shooting method](./Shooting.nb).
-- [Integral of the difference of two functions](./IntegralofDifference.nb).
+- [Archimedes' method of estimating π](./Archimedes.nb) - Implementation of Archimedes' geometric approach to approximating π.
+
+### Geometry / Visualization
+
+- [Circle-circle intersection points](./CircleCircleIntersection.nb) - Algorithm for finding intersection points between two circles.
+- [Volume of the hypersphere](./HypersphereVolume.nb) - Evolution of the volume formula for n-dimensional hyperspheres.
+- [Nearest point to a polygon](./nearestPointToPolygon.nb) - Geofence algorithm for finding the nearest point to a polygon.
+
+### Analysis / Calculus
+
+- [Borwein integral formulas](./Borwein_integral.nb) - Exploration of the curious Borwein integral formulas.
+
+---
+
+For a complete listing of all notebooks, see [NOTEBOOK_CATALOG.md](./NOTEBOOK_CATALOG.md).
