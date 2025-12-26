@@ -14,6 +14,7 @@ A collection of various Mathematica notebooks covering mathematical problems, al
 - [Ones digit calculation](./onesDigit.nb) - Computing the ones digit of (√2 + √3)²⁰¹⁴ with high precision.
 - [Perfect square test](./a^b+b^a=i^2.nb) - Efficient perfect square detection using Jacobi symbols and modular arithmetic. *(Not original work - references StackExchange)*.
 - [Period digits](./PeriodDigits.nb) - Analysis of the number of decimal digits in the period of 1/n.
+- [Totient function analysis](./Totient.nb) - Euler totient function analysis with recursive computation and visualization.
 
 ### Applied Mathematics / Modeling
 
@@ -38,12 +39,15 @@ A collection of various Mathematica notebooks covering mathematical problems, al
 ### Geometry / Visualization
 
 - [Circle-circle intersection points](./CircleCircleIntersection.nb) - Algorithm for finding intersection points between two circles.
+- [Mathematical spirals](./Spirals.nb) - Exploration of mathematical spirals (conical, helix, spherical, Seiffert) with 3D graphics.
 - [Volume of the hypersphere](./HypersphereVolume.nb) - Evolution of the volume formula for n-dimensional hyperspheres.
 - [Nearest point to a polygon](./nearestPointToPolygon.nb) - Geofence algorithm for finding the nearest point to a polygon.
 
 ### Analysis / Calculus
 
 - [Borwein integral formulas](./Borwein_integral.nb) - Exploration of the curious Borwein integral formulas.
+- [Fourier series analysis](./fourier-series.nb) - Fourier series analysis with coefficient extraction and visualization.
+- [Interference patterns](./interferencePatterns.nb) - Physics visualization of interference patterns using Fourier analysis.
 
 ---
 
