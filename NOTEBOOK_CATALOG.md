@@ -1,4 +1,4 @@
-# Complete Notebook Catalog
+# Notebook Catalog
 
 Alphabetical listing of Mathematica notebooks with brief descriptions.
 
