@@ -102,9 +102,15 @@ Alphabetical listing of Mathematica notebooks with brief descriptions.
 
 - **`Totient.nb`** - Euler totient function analysis with recursive computation and visualization.
 
+## Z
+
+- **`Zbiciak.nb`** - Zbiciak number calculation: sum of factorials 1! + 2! + ... + 2018!. Tests which numbers added to this sum are prime.
+
+- **`Zz.nb`** - Solving equation z^z - z^(-z) = z. Attempts to solve in complex domain. Solve fails, uses FindRoot instead.
+
 ---
 
 ## Summary Statistics
 
-- **Total notebooks cataloged**: ~40
+- **Total notebooks cataloged**: ~50
 - **Categories**: Mathematical Problem Solving, Quantum Computing/Physics, Game Theory/Probability, Computational Mathematics, Geometry/Visualization, Analysis/Calculus, Applied Mathematics/Modeling
