@@ -17,7 +17,7 @@ Alphabetical listing of Mathematica notebooks with brief descriptions.
 ## B
 
 - **`Borwein_integral.nb`** - Exploration of the curious Borwein integral formulas involving infinite products of sinc functions.
-
+- **`Borwein_curious_Pi_approximation.nb`** - Computing the value of the curious Borwein's approximation formula for π.
 ## C
 
 - **`CircleCircleIntersection.nb`** - Algorithm for finding intersection points between two circles.
@@ -99,6 +99,7 @@ Alphabetical listing of Mathematica notebooks with brief descriptions.
 ## T
 
 - **`Thinking_depth.nb`** - "2/3 of the mean" game theory problem. Calculates optimal strategies for iterated reasoning. Shows convergence to Nash equilibrium.
+- **`Three_languages.nb`** - A small constrained optimisation problem.
 
 - **`Totient.nb`** - Euler totient function analysis with recursive computation and visualization.
 
